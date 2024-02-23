@@ -8,7 +8,6 @@ UPDATE `quest_template` SET `RewardSpell` = 1446 WHERE `ID` IN (31, 5061);
 /* UPDATE `npc_trainer` SET `ReqLevel` = 30 WHERE `SpellID` = 783; */
 
 /* Remove Summon Imp from Trainer - it is a quest reward instead */
-
 DELETE FROM `npc_trainer` WHERE `ID`=200009 AND `SpellID`=688;
 
 /* Remove Sense Undead from Trainer - it is a quest reward for Tome of Valor quest line */
