@@ -24,36 +24,36 @@ UPDATE `creature_template` SET `subname`='Expert Tailor', `npcflag`=81, `trainer
 
 
 -- Doctor Martin Felben <Journeyman Alchemist Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=11044;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11044, -300000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=11044;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11044, -300000);
 
--- Doctor Marsh <Expert Alchemist>
-DELETE FROM `npc_trainer` WHERE `ID`=4609;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4609, -300000), (4609, -300001);
+-- -- Doctor Marsh <Expert Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=4609;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4609, -300000), (4609, -300001);
 
--- Basil Frye <Journeyman Blacksmith>
-DELETE FROM `npc_trainer` WHERE `ID`=4605;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4605, -310000);
+-- -- Basil Frye <Journeyman Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=4605;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4605, -310000);
 
--- Malcomb Wynn <Journeyman Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=11067;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11067, -330000);
+-- -- Malcomb Wynn <Journeyman Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11067;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11067, -330000);
 
--- Graham Van Talen <Journeyman Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=4586;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4586, -340000);
+-- -- Graham Van Talen <Journeyman Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=4586;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4586, -340000);
 
--- Dan Golthas <Journeyman Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=223;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (223, -380000);
+-- -- Dan Golthas <Journeyman Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=223;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (223, -380000);
 
--- Victor Ward <Journeyman Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=11048;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11048, -410000);
+-- -- Victor Ward <Journeyman Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11048;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11048, -410000);
 
--- Rhiannon Davis <Expert Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=11049;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11049, -410000), (11049, -410001);
+-- -- Rhiannon Davis <Expert Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11049;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11049, -410000), (11049, -410001);
 
 -- Doctor Marsh <Expert Alchemist>
 DELETE FROM `gossip_menu_option` WHERE `MenuID`=4130;

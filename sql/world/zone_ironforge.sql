@@ -27,36 +27,36 @@ UPDATE `creature_template` SET `subname`='Journeyman Tailor', `npcflag`=81, `tra
 
 
 -- Vosur Brakthel <Journeyman Alchemist>
-DELETE FROM `npc_trainer` WHERE `ID`=1246;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1246, -300000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=1246;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1246, -300000);
 
--- Groum Stonebeard <Journeyman Blacksmith>
-DELETE FROM `npc_trainer` WHERE `ID`=10277;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10277, -310000);
+-- -- Groum Stonebeard <Journeyman Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=10277;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10277, -310000);
 
--- Rotgath Stonebeard <Expert Blacksmith>
-DELETE FROM `npc_trainer` WHERE `ID`=10276;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10276, -310000), (10276, -310001);
+-- -- Rotgath Stonebeard <Expert Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=10276;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10276, -310000), (10276, -310001);
 
--- Thonys Pillarstone <Journeyman Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=11065;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11065, -330000);
+-- -- Thonys Pillarstone <Journeyman Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11065;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11065, -330000);
 
--- Jemma Quikswitch <Journeyman Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=11028;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11028, -340000);
+-- -- Jemma Quikswitch <Journeyman Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11028;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11028, -340000);
 
--- Trixie Quikswitch <Expert Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=11029;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11029, -340000), (11029, -340001);
+-- -- Trixie Quikswitch <Expert Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11029;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11029, -340000), (11029, -340001);
 
--- Gretta Finespindle <Journeyman Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=1466;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1466, -380000);
+-- -- Gretta Finespindle <Journeyman Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1466;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1466, -380000);
 
--- Uthrar Threx <Journeyman Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=1703;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1703, -410000);
+-- -- Uthrar Threx <Journeyman Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1703;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1703, -410000);
 
 -- Rotgath Stonebeard <Expert Blacksmith>
 DELETE FROM `gossip_menu_option` WHERE `MenuID`=2761;

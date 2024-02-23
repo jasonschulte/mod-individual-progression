@@ -47,85 +47,85 @@ UPDATE `creature_template` SET `subname`='Journeyman Tailor', `npcflag`=81, `tra
 UPDATE `creature_template` SET `subname`='Expert Tailor' WHERE `entry`=3363;
 
 
--- Snarl <Expert Blacksmith>
-DELETE FROM `npc_trainer` WHERE `ID`=1383;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1383, -310000), (1383, -310001);
+-- -- Snarl <Expert Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1383;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1383, -310000), (1383, -310001);
 
--- Snang <Journeyman Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=2855;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2855, -410000);
+-- -- Snang <Journeyman Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=2855;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2855, -410000);
 
--- Thund <Journeyman Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=2857;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2857, -340000);
+-- -- Thund <Journeyman Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=2857;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2857, -340000);
 
--- Lumak <Fishing Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=3332;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3332, -360000);
+-- -- Lumak <Fishing Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3332;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3332, -360000);
 
--- Godan <Expert Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=3345;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3345, -330000), (3345, -330001);
+-- -- Godan <Expert Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3345;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3345, -330000), (3345, -330001);
 
--- Yelmak <Expert Alchemist>
-DELETE FROM `npc_trainer` WHERE `ID`=3347;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3347, -300000), (3347, -300001);
+-- -- Yelmak <Expert Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3347;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3347, -300000), (3347, -300001);
 
--- Saru Steelfury <Artisan Blacksmith>
-DELETE FROM `npc_trainer` WHERE `ID`=3355;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310000), (3355, -310001), (3355, -310002);
+-- -- Saru Steelfury <Artisan Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3355;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310000), (3355, -310001), (3355, -310002);
 
--- Makaru <Mining Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=3357;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3357, -390000);
+-- -- Makaru <Mining Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3357;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3357, -390000);
 
--- Magar <Expert Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=3363;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3363, -410000), (3363, -410001);
+-- -- Magar <Expert Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3363;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3363, -410000), (3363, -410001);
 
--- Karolek <Expert Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=3365;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3365, -380000), (3365, -380001);
+-- -- Karolek <Expert Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3365;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3365, -380000), (3365, -380001);
 
--- Arnok <First Aid Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=3373;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3373, -350000);
+-- -- Arnok <First Aid Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3373;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3373, -350000);
 
--- Zamja <Cooking Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=3399;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3399, -320000);
+-- -- Zamja <Cooking Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3399;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3399, -320000);
 
--- Nogg <Expert Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=3412;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3412, -340000), (3412, -340001);
+-- -- Nogg <Expert Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3412;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3412, -340000), (3412, -340001);
 
--- Kildar <Riding Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=4752;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4752, -450000);
+-- -- Kildar <Riding Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=4752;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4752, -450000);
 
--- Kamari <Journeyman Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=5811;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5811, -380000);
+-- -- Kamari <Journeyman Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5811;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5811, -380000);
 
--- Thuwd <Skinning Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=7088;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7088, -400000);
+-- -- Thuwd <Skinning Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=7088;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7088, -400000);
 
--- Ug'thok <Journeyman Blacksmith>
-DELETE FROM `npc_trainer` WHERE `ID`=10266;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10266, -310000);
+-- -- Ug'thok <Journeyman Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=10266;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10266, -310000);
 
--- Roxxik <Artisan Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=11017;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340000), (11017, -340001), (11017, -340002);
+-- -- Roxxik <Artisan Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11017;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340000), (11017, -340001), (11017, -340002);
 
--- Whuut <Journeyman Alchemist>
-DELETE FROM `npc_trainer` WHERE `ID`=11046;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11046, -300000);
+-- -- Whuut <Journeyman Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11046;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11046, -300000);
 
--- Jhag <Journeyman Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=11066;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
+-- -- Jhag <Journeyman Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11066;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
 
 
 -- Snarl <Expert Blacksmith>
@@ -352,6 +352,108 @@ UPDATE `creature_template` SET `minlevel`=60, `maxlevel`=60, `rank`=0 WHERE `ent
 
 -- Raider Bork <Mount Quartermaster>
 UPDATE `creature_template_addon` SET `mount`=0 WHERE `entry`=12796;
+
+-- Snarl <Expert Blacksmith>
+DELETE FROM `gossip_menu_option` WHERE `MenuID`=2782;
+INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`) VALUES (2782, 0, 3, 'Train me.', 3266, 5, 16);
+
+-- Nogg <Expert Engineer>
+DELETE FROM `gossip_menu_option` WHERE `MenuID`=4148;
+INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`) VALUES (4148, 0, 3, 'Train me.', 3266, 5, 16);
+
+-- Roxxik <Artisan Engineer>
+DELETE FROM `gossip_menu_option` WHERE `MenuID`=4151;
+INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`) VALUES (4151, 0, 3, 'Train me.', 3266, 5, 16);
+
+-- Snarl <Expert Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1383;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1383, -310000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1383, -310001);
+
+-- Snang <Journeyman Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=2855;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2855, -410000);
+
+-- Thund <Journeyman Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=2857;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2857, -340000);
+
+-- Lumak <Fishing Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3332;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3332, -360000);
+
+-- Godan <Expert Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3345;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3345, -330000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3345, -330001);
+
+-- Yelmak <Expert Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3347;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3347, -300000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3347, -300001);
+
+-- Saru Steelfury <Artisan Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3355;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310001);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3355, -310002);
+
+-- Makaru <Mining Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3357;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3357, -390000);
+
+-- Magar <Expert Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3363;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3363, -410000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3363, -410001);
+
+-- Karolek <Expert Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3365;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3365, -380000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3365, -380001);
+
+-- Arnok <First Aid Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3373;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3373, -350000);
+
+-- Zamja <Cooking Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3399;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3399, -320000);
+
+-- Nogg <Expert Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=3412;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3412, -340000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3412, -340001);
+
+-- Kildar <Riding Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=4752;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (4752, -450000);
+
+-- Kamari <Journeyman Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5811;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5811, -380000);
+
+-- Thuwd <Skinning Trainer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=7088;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (7088, -400000);
+
+-- Ug'thok <Journeyman Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=10266;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10266, -310000);
+
+-- Roxxik <Artisan Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11017;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340001);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11017, -340002);
+
+-- Whuut <Journeyman Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11046;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11046, -300000);
+
+-- Jhag <Journeyman Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11066;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11066, -330000);
 
 -- Olvia <Meat Vendor>
 DELETE FROM `npc_vendor` WHERE `entry`=3312 AND `item` IN (27854, 33454, 35953);

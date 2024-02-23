@@ -44,28 +44,28 @@ UPDATE `creature_template` SET `faction`=14 WHERE `entry`=8554;
 UPDATE `creature_template` SET `subname`='Journeyman Engineer' WHERE `entry`=10993;
 
 -- Chaw Stronghide <Journeyman Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=3069;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3069, -380000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=3069;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3069, -380000);
 
 -- Kar Stormsinger <Riding Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=3690;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3690, -450000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=3690;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (3690, -450000);
 
 -- Uthan Stillwater <Fisherman>
-DELETE FROM `npc_trainer` WHERE `ID`=5938;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5938, -360000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=5938;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5938, -360000);
 
 -- Vira Younghoof <First Aid Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=5939;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5939, -350000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=5939;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5939, -350000);
 
 -- Yonn Deepcut <Skinner>
-DELETE FROM `npc_trainer` WHERE `ID`=6290;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (6290, -400000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=6290;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (6290, -400000);
 
 -- Twizwick Sprocketgrind <Journeyman Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=10993;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10993, -340000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=10993;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (10993, -340000);
 
 -- Wunna Darkmane <Trade Goods>
 # DELETE FROM `npc_vendor` WHERE `entry`=3081 AND `item` IN (10648, 30817, 39354);

@@ -24,56 +24,56 @@ UPDATE `creature_template` SET `subname`='Artisan Tailor' WHERE `entry`=1346;
 
 
 -- Tel'Athir <Journeyman Alchemist>
-DELETE FROM `npc_trainer` WHERE `ID`=5500;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5500, -300000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=5500;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5500, -300000);
 
--- Lilyssia Nightbreeze <Expert Alchemist>
-DELETE FROM `npc_trainer` WHERE `ID`=5499;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5499, -300000), (5499, -300001);
+-- -- Lilyssia Nightbreeze <Expert Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5499;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5499, -300000), (5499, -300001);
 
--- Dane Lindgren <Journeyman Blacksmith>
-DELETE FROM `npc_trainer` WHERE `ID`=957;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (957, -310000);
+-- -- Dane Lindgren <Journeyman Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=957;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (957, -310000);
 
--- Therum Deepforge <Expert Blacksmith>
-DELETE FROM `npc_trainer` WHERE `ID`=5511;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5511, -310000), (5511, -310001);
+-- -- Therum Deepforge <Expert Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5511;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5511, -310000), (5511, -310001);
 
--- Betty Quin <Journeyman Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=11068;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11068, -330000);
+-- -- Betty Quin <Journeyman Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11068;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11068, -330000);
 
--- Lucan Cordell <Expert Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=1317;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1317, -330000), (1317, -330001);
+-- -- Lucan Cordell <Expert Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1317;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1317, -330000), (1317, -330001);
 
--- Sprite Jumpsprocket <Journeyman Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=11026;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11026, -340000);
+-- -- Sprite Jumpsprocket <Journeyman Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11026;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11026, -340000);
 
--- Lilliam Sparkspindle <Expert Engineer>
-DELETE FROM `npc_trainer` WHERE `ID`=5518;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5518, -340000), (5518, -340001);
+-- -- Lilliam Sparkspindle <Expert Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5518;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5518, -340000), (5518, -340001);
 
--- Randal Worth <Journeyman Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=11096;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11096, -380000);
+-- -- Randal Worth <Journeyman Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11096;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11096, -380000);
 
--- Simon Tanner <Expert Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=5564;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5564, -380000), (5564, -380001);
+-- -- Simon Tanner <Expert Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5564;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5564, -380000), (5564, -380001);
 
--- Lawrence Schneider <Journeyman Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=1300;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1300, -410000);
+-- -- Lawrence Schneider <Journeyman Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1300;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1300, -410000);
 
--- Sellandus <Expert Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=5567;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5567, -410000), (5567, -410001);
+-- -- Sellandus <Expert Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5567;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5567, -410000), (5567, -410001);
 
--- Georgio Bolero <Artisan Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=1346;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1346, -410000), (1346, -410001), (1346, -410002);
+-- -- Georgio Bolero <Artisan Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1346;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1346, -410000), (1346, -410001), (1346, -410002);
 
 
 -- Lucan Cordell <Expert Enchanter>
@@ -267,25 +267,93 @@ UPDATE `creature_template` SET `minlevel`=63, `maxlevel`=63 WHERE `entry`=29611;
 -- Lieutenant Karter <Mount Vendor>
 UPDATE `creature_template_addon` SET `mount`=0 WHERE `entry`=12783;
 
+-- Lucan Cordell <Expert Enchanter>
+DELETE FROM `gossip_menu_option` WHERE `MenuID`=4161;
+INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`) VALUES (4161, 0, 3, 'Train me.', 3266, 5, 16);
+
+-- Sellandus <Expert Tailor>
+DELETE FROM `gossip_menu_option` WHERE `MenuID`=4344;
+INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`) VALUES (4344, 0, 3, 'Train me.', 3266, 5, 16);
+
+-- Dane Lindgren <Journeyman Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=957;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (957, -310000);
+
+-- Lawrence Schneider <Journeyman Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1300;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1300, -410000);
+
+-- Lucan Cordell <Expert Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1317;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1317, -330000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1317, -330001);
+
+-- Georgio Bolero <Artisan Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=1346;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1346, -410000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1346, -410001);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1346, -410002);
+
 -- Tomas <Cook>
-DELETE FROM `npc_trainer` WHERE `ID`=1430;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1430, -320000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=1430;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (1430, -320000);
 
 -- Shaina Fuller <First Aid Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=2327;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2327, -350000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=2327;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (2327, -350000);
 
 -- Arnold Leland <Fishing Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=5493;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5493, -360000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=5493;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5493, -360000);
 
 -- Stephen Ryback <Cooking Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=5482;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5482, -320000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=5482;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5482, -320000);
+
+-- Lilyssia Nightbreeze <Expert Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5499;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5499, -300000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5499, -300001);
+
+-- Tel'Athir <Journeyman Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5500;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5500, -300000);
+
+-- Therum Deepforge <Expert Blacksmith>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5511;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5511, -310000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5511, -310001);
 
 -- Gelman Stonehand <Mining Trainer>
-DELETE FROM `npc_trainer` WHERE `ID`=5513;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5513, -390000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=5513;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5513, -390000);
+
+-- Lilliam Sparkspindle <Expert Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5518;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5518, -340000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5518, -340001);
+
+-- Simon Tanner <Expert Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5564;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5564, -380000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5564, -380001);
+
+-- Sellandus <Expert Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=5567;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5567, -410000);
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (5567, -410001);
+
+-- Sprite Jumpsprocket <Journeyman Engineer>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11026;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11026, -340000);
+
+-- Betty Quin <Journeyman Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11068;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11068, -330000);
+
+-- Randal Worth <Journeyman Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11096;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11096, -380000);
 
 -- Elaine Trias <Mistress of Cheese>
 DELETE FROM `npc_vendor` WHERE `entry`=483 AND `item` IN (27857, 33443, 35952);

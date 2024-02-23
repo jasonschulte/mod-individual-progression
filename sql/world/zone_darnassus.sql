@@ -21,28 +21,28 @@ UPDATE `creature_template` SET `subname`='Journeyman Tailor', `npcflag`=81, `tra
 
 
 -- Milla Fairancora <Journeyman Alchemist>
-DELETE FROM `npc_trainer` WHERE `ID`=11041;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11041, -300000);
+-- DELETE FROM `npc_trainer` WHERE `ID`=11041;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11041, -300000);
 
--- Sylvanna Forestmoon <Expert Alchemist>
-DELETE FROM `npc_trainer` WHERE `ID`=11042;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11042, -300000), (11042, -300001);
+-- -- Sylvanna Forestmoon <Expert Alchemist>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11042;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11042, -300000), (11042, -300001);
 
--- Lalina Summermoon <Journeyman Enchanter>
-DELETE FROM `npc_trainer` WHERE `ID`=11070;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11070, -330000);
+-- -- Lalina Summermoon <Journeyman Enchanter>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11070;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11070, -330000);
 
--- Trianna <Journeyman Tailor>
-DELETE FROM `npc_trainer` WHERE `ID`=11050;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11050, -410000);
+-- -- Trianna <Journeyman Tailor>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11050;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11050, -410000);
 
--- Darianna <Journeyman Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=11083;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11083, -380000);
+-- -- Darianna <Journeyman Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11083;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11083, -380000);
 
--- Faldron <Expert Leatherworker>
-DELETE FROM `npc_trainer` WHERE `ID`=11081;
-INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11081, -380000), (11081, -380001);
+-- -- Faldron <Expert Leatherworker>
+-- DELETE FROM `npc_trainer` WHERE `ID`=11081;
+-- INSERT INTO `npc_trainer` (`ID`, `SpellID`) VALUES (11081, -380000), (11081, -380001);
 
 -- Sylvanna Forestmoon <Expert Alchemist>
 DELETE FROM `gossip_menu_option` WHERE `MenuID`=4125;
