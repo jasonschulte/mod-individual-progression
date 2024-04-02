@@ -1454,7 +1454,7 @@ UPDATE `item_template` SET `BuyPrice` = 11762, `SellPrice` = 2352, `spellcooldow
 UPDATE `item_template` SET `BuyPrice` = 98890 WHERE entry=2815;
 
 /*  Death Speaker Scepter  */
-UPDATE `item_template` SET `BuyPrice` = 36620, `dmg_min1` = 33.0, `dmg_max1` = 63.0, `spellid_1` = 7679, `spellid_2` = 7708, `RequiredLevel` = 28 WHERE entry=2816 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 36620, `dmg_min1` = 33.0, `dmg_max1` = 63.0, `spellid_1` = 7679, `spellid_2` = 7708, `RequiredLevel` = 28 WHERE entry=2816;
 
 /*  Stretched Leather Trousers  */
 UPDATE `item_template` SET `BuyPrice` = 1817 WHERE entry=2818;
@@ -1553,13 +1553,13 @@ UPDATE `item_template` SET `BuyPrice` = 5766 WHERE entry=2913;
 UPDATE `item_template` SET `BuyPrice` = 22028 WHERE entry=2916;
 
 /*  Sacred Relic  */
-UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 5 WHERE entry=2920 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 5 WHERE entry=2920;
 
 /*  Blessed Relic  */
-UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 10 WHERE entry=2921 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 10 WHERE entry=2921;
 
 /*  Spirit Relic  */
-UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 15 WHERE entry=2922 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 15 WHERE entry=2922;
 
 /*  Iron Knuckles  */
 UPDATE `item_template` SET `BuyPrice` = 18316 WHERE entry=2942;
@@ -1631,13 +1631,13 @@ UPDATE `item_template` SET `BuyPrice` = 4113 WHERE entry=2985;
 UPDATE `item_template` SET `BuyPrice` = 1571 WHERE entry=2988;
 
 /*  Relic of the Eye  */
-UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 5 WHERE entry=3003 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 5 WHERE entry=3003;
 
 /*  Relic of the Dead  */
-UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 10 WHERE entry=3004 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 10 WHERE entry=3004;
 
 /*  Relic of Truth  */
-UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 15 WHERE entry=3005 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 0, `bonding` = 0, `RequiredLevel` = 15 WHERE entry=3005;
 
 /*  Wendigo Fur Cloak  */
 UPDATE `item_template` SET `BuyPrice` = 218, `SellPrice` = 43 WHERE entry=3008;
@@ -1751,7 +1751,7 @@ UPDATE `item_template` SET `BuyPrice` = 1474, `SellPrice` = 294 WHERE entry=3161
 UPDATE `item_template` SET `BuyPrice` = 74353 WHERE entry=3187;
 
 /*  Arced War Axe  */
-UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 19289, `SellPrice` = 3857, `dmg_min1` = 46.0, `dmg_max1` = 70.0, `MaxDurability` = 80, `stat_value1` = 6, `stat_value2` = 6, `DisenchantID` = 24, `RequiredLevel` = 21 WHERE entry=3191 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 19289, `SellPrice` = 3857, `dmg_min1` = 46.0, `dmg_max1` = 70.0, `MaxDurability` = 80, `stat_value1` = 6, `stat_value2` = 6, `DisenchantID` = 24, `RequiredLevel` = 21 WHERE entry=3191;
 
 /*  Oak Mallet  */
 UPDATE `item_template` SET `BuyPrice` = 10361 WHERE entry=3193;
@@ -1808,7 +1808,7 @@ UPDATE `item_template` SET `BuyPrice` = 5492 WHERE entry=3228;
 UPDATE `item_template` SET `stat_type1` = 4, `stat_value1` = 2, `stat_type2` = 5, `stat_value2` = 5, `spellid_1` = 0, `spelltrigger_1` = 0, `StatsCount` = 2 WHERE entry=3229;
 
 /*  Black Wolf Bracers  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 38, `BuyPrice` = 3842, `SellPrice` = 768, `MaxDurability` = 30, `stat_value1` = 5, `DisenchantID` = 4, `RequiredLevel` = 21 WHERE entry=3230 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 38, `BuyPrice` = 3842, `SellPrice` = 768, `MaxDurability` = 30, `stat_value1` = 5, `DisenchantID` = 4, `RequiredLevel` = 21 WHERE entry=3230;
 
 /*  Cutthroat Pauldrons  */
 UPDATE `item_template` SET `BuyPrice` = 6332 WHERE entry=3231;
@@ -2108,7 +2108,7 @@ UPDATE `item_template` SET `BuyPrice` = 237 WHERE entry=3644;
 UPDATE `item_template` SET `BuyPrice` = 2169, `SellPrice` = 433 WHERE entry=3647;
 
 /*  Warrior's Buckler  */
-UPDATE `item_template` SET `armor` = 135, `BuyPrice` = 365, `SellPrice` = 73, `ItemLevel` = 9, `block` = 3, `MaxDurability` = 40, `RequiredLevel` = 4 WHERE entry=3648 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 135, `BuyPrice` = 365, `SellPrice` = 73, `ItemLevel` = 9, `block` = 3, `MaxDurability` = 40, `RequiredLevel` = 4 WHERE entry=3648;
 
 /*  Tribal Buckler  */
 UPDATE `item_template` SET `BuyPrice` = 575, `spellcooldown_1` = -1 WHERE entry=3649;
@@ -2156,7 +2156,7 @@ UPDATE `item_template` SET `BuyPrice` = 4614, `SellPrice` = 922 WHERE entry=3741
 UPDATE `item_template` SET `dmg_min1` = 20.0, `dmg_max1` = 39.0 WHERE entry=3742;
 
 /*  Feline Mantle  */
-UPDATE `item_template` SET `armor` = 34, `BuyPrice` = 6524, `SellPrice` = 1304, `ItemLevel` = 28, `stat_value1` = 10, `stat_value2` = 3, `stat_type3` = 3, `stat_value3` = 2, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 23, `StatsCount` = 3 WHERE entry=3748 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 34, `BuyPrice` = 6524, `SellPrice` = 1304, `ItemLevel` = 28, `stat_value1` = 10, `stat_value2` = 3, `stat_type3` = 3, `stat_value3` = 2, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 23, `StatsCount` = 3 WHERE entry=3748;
 
 /*  High Apothecary Cloak  */
 UPDATE `item_template` SET `BuyPrice` = 6603 WHERE entry=3749;
@@ -2615,7 +2615,7 @@ UPDATE `item_template` SET `BuyPrice` = 20053 WHERE entry=4137;
 UPDATE `item_template` SET `BuyPrice` = 9375 WHERE entry=4140;
 
 /*  Feathered Mantle  */
-UPDATE `item_template` SET `armor` = 77, `MaxDurability` = 60, `DisenchantID` = 0, `RequiredLevel` = 25 WHERE entry=4196 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 77, `MaxDurability` = 60, `DisenchantID` = 0, `RequiredLevel` = 25 WHERE entry=4196;
 
 /*  Berylline Pads  */
 UPDATE `item_template` SET `BuyPrice` = 13828 WHERE entry=4197;
@@ -2717,7 +2717,7 @@ UPDATE `item_template` SET `spellid_1` = 7689 WHERE entry=4317;
 UPDATE `item_template` SET `BuyPrice` = 4076, `spellid_1` = 7703 WHERE entry=4319;
 
 /*  Spidersilk Boots  */
-UPDATE `item_template` SET `BuyPrice` = 4897, `SellPrice` = 979, `ItemLevel` = 25, `MaxDurability` = 40, `stat_type1` = 6, `stat_value1` = 7, `RequiredLevel` = 20 WHERE entry=4320 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 4897, `SellPrice` = 979, `ItemLevel` = 25, `MaxDurability` = 40, `stat_type1` = 6, `stat_value1` = 7, `RequiredLevel` = 20 WHERE entry=4320;
 
 /*  Spider Silk Slippers  */
 UPDATE `item_template` SET `BuyPrice` = 5600, `stat_type2` = 3, `stat_value2` = 3, `spellid_1` = 0, `spelltrigger_1` = 0, `StatsCount` = 2 WHERE entry=4321;
@@ -2762,7 +2762,7 @@ UPDATE `item_template` SET `BuyPrice` = 15915, `dmg_min1` = 14.0, `dmg_max1` = 2
 UPDATE `item_template` SET `BuyPrice` = 7052 WHERE entry=4385;
 
 /*  Craftsman's Monocle  */
-UPDATE `item_template` SET `RequiredLevel` = 32 WHERE entry=4393 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 32 WHERE entry=4393;
 
 /*  Ethereal Talisman  */
 UPDATE `item_template` SET `spellcooldown_1` = -1 WHERE entry=4430;
@@ -3332,7 +3332,7 @@ UPDATE `item_template` SET `spellcooldown_1` = -1 WHERE entry=5215;
 UPDATE `item_template` SET `spellcooldown_1` = -1 WHERE entry=5216;
 
 /*  Alchemist's Wand  */
-UPDATE `item_template` SET `dmg_min1` = 5.0, `dmg_max1` = 11.0, `bonding` = 1, `MaxDurability` = 25, `RequiredLevel` = 0 WHERE entry=5235 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `dmg_min1` = 5.0, `dmg_max1` = 11.0, `bonding` = 1, `MaxDurability` = 25, `RequiredLevel` = 0 WHERE entry=5235;
 
 /*  Combustible Wand  */
 UPDATE `item_template` SET `spellcooldown_1` = -1 WHERE entry=5236;
@@ -3503,7 +3503,7 @@ UPDATE `item_template` SET `BuyPrice` = 138 WHERE entry=5458;
 UPDATE `item_template` SET `BuyPrice` = 2361 WHERE entry=5459;
 
 /*  Mana Agate  */
-UPDATE `item_template` SET `spellid_1` = 5405, `spellcharges_1` = -1, `spellcooldown_1` = -1, `spellcategorycooldown_1` = 120000, `spellcategory_1` = 1153, `spellid_2` = 0, `spellcharges_2` = 0, `spellcategorycooldown_2` = 0, `spellcategory_2` = 0, `spellcooldown_3` = -1, `spellcategorycooldown_3` = -1, `spellcooldown_4` = -1, `spellcategorycooldown_4` = -1, `RequiredLevel` = 23 WHERE entry=5514 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellid_1` = 5405, `spellcharges_1` = -1, `spellcooldown_1` = -1, `spellcategorycooldown_1` = 120000, `spellcategory_1` = 1153, `spellid_2` = 0, `spellcharges_2` = 0, `spellcategorycooldown_2` = 0, `spellcategory_2` = 0, `spellcooldown_3` = -1, `spellcategorycooldown_3` = -1, `spellcooldown_4` = -1, `spellcategorycooldown_4` = -1, `RequiredLevel` = 23 WHERE entry=5514;
 
 /*  Iridescent Hammer  */
 UPDATE `item_template` SET `BuyPrice` = 18469, `SellPrice` = 3693, `dmg_min1` = 18.0, `dmg_max1` = 34.0, `stat_type1` = 4, `stat_type2` = 7, `stat_value2` = 3 WHERE entry=5541;
@@ -3794,7 +3794,7 @@ UPDATE `item_template` SET `BuyPrice` = 3009, `SellPrice` = 601 WHERE entry=6215
 UPDATE `item_template` SET `dmg_min1` = 5.0, `dmg_max1` = 8.0 WHERE entry=6219;
 
 /*  Meteor Shard  */
-UPDATE `item_template` SET `RequiredLevel` = 24 WHERE entry=6220 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 24 WHERE entry=6220;
 
 /*  Crest of Darkshire  */
 UPDATE `item_template` SET `BuyPrice` = 23986 WHERE entry=6223;
@@ -3824,7 +3824,7 @@ UPDATE `item_template` SET `BuyPrice` = 966 WHERE entry=6269;
 UPDATE `item_template` SET `BuyPrice` = 11219, `SellPrice` = 2243, `stat_type1` = 4, `stat_value1` = 3, `stat_type3` = 6, `stat_value3` = 9, `spellid_1` = 0, `spelltrigger_1` = 0, `StatsCount` = 3 WHERE entry=6282;
 
 /*  Wolfmaster Cape  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 20, `BuyPrice` = 6343, `SellPrice` = 1268, `stat_type1` = 7, `stat_value1` = 2, `stat_value2` = 4, `DisenchantID` = 4, `RequiredLevel` = 22 WHERE entry=6314 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 20, `BuyPrice` = 6343, `SellPrice` = 1268, `stat_type1` = 7, `stat_value1` = 2, `stat_value2` = 4, `DisenchantID` = 4, `RequiredLevel` = 22 WHERE entry=6314;
 
 /*  Steelarrow Crossbow  */
 UPDATE `item_template` SET `dmg_min1` = 29.0, `dmg_max1` = 45.0 WHERE entry=6315;
@@ -3833,10 +3833,10 @@ UPDATE `item_template` SET `dmg_min1` = 29.0, `dmg_max1` = 45.0 WHERE entry=6315
 UPDATE `item_template` SET `BuyPrice` = 24014, `SellPrice` = 4802 WHERE entry=6318;
 
 /*  Girdle of the Blindwatcher  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 49, `BuyPrice` = 4016, `SellPrice` = 803, `MaxDurability` = 30, `stat_value1` = 3, `stat_value2` = 5, `DisenchantID` = 4, `RequiredLevel` = 21 WHERE entry=6319 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 49, `BuyPrice` = 4016, `SellPrice` = 803, `MaxDurability` = 30, `stat_value1` = 3, `stat_value2` = 5, `DisenchantID` = 4, `RequiredLevel` = 21 WHERE entry=6319;
 
 /*  Commander's Crest  */
-UPDATE `item_template` SET `stat_type1` = 6, `spellcooldown_1` = -1, `RequiredLevel` = 23 WHERE entry=6320 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `stat_type1` = 6, `spellcooldown_1` = -1, `RequiredLevel` = 23 WHERE entry=6320;
 
 /*  Silverlaine's Family Seal  */
 UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1 WHERE entry=6321;
@@ -3845,7 +3845,7 @@ UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -
 UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 13058, `SellPrice` = 2611, `dmg_min1` = 21.0, `dmg_max1` = 40.0, `MaxDurability` = 65, `stat_value1` = 4, `DisenchantID` = 23, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1 WHERE entry=6323;
 
 /*  Robes of Arugal  */
-UPDATE `item_template` SET `BuyPrice` = 9463, `stat_value1` = 10, `stat_type4` = 3, `stat_value4` = 3, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 24, `StatsCount` = 4 WHERE entry=6324 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 9463, `stat_value1` = 10, `stat_type4` = 3, `stat_value4` = 3, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 24, `StatsCount` = 4 WHERE entry=6324;
 
 /*  The Pacifier  */
 UPDATE `item_template` SET `BuyPrice` = 64118 WHERE entry=6327;
@@ -3863,7 +3863,7 @@ UPDATE `item_template` SET `BuyPrice` = 7905 WHERE entry=6335;
 UPDATE `item_template` SET `BuyPrice` = 1526 WHERE entry=6336;
 
 /*  Fenrus' Hide  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 20, `BuyPrice` = 4375, `SellPrice` = 875, `stat_value1` = 4, `stat_value2` = 2, `DisenchantID` = 4, `RequiredLevel` = 21 WHERE entry=6340 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 20, `BuyPrice` = 4375, `SellPrice` = 875, `stat_value1` = 4, `stat_value2` = 2, `DisenchantID` = 4, `RequiredLevel` = 21 WHERE entry=6340;
 
 /*  Eerie Stable Lantern  */
 UPDATE `item_template` SET `Quality` = 2, `stat_value1` = 3, `DisenchantID` = 22, `spellid_1` = 0, `spelltrigger_1` = 0 WHERE entry=6341;
@@ -3899,7 +3899,7 @@ UPDATE `item_template` SET `BuyPrice` = 10216 WHERE entry=6388;
 UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1 WHERE entry=6389;
 
 /*  Belt of Arugal  */
-UPDATE `item_template` SET `BuyPrice` = 5003, `stat_type3` = 3, `stat_value3` = 2, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 24, `StatsCount` = 3 WHERE entry=6392 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 5003, `stat_type3` = 3, `stat_value3` = 2, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 24, `StatsCount` = 3 WHERE entry=6392;
 
 /*  Silver-thread Gloves  */
 UPDATE `item_template` SET `BuyPrice` = 3803 WHERE entry=6393;
@@ -3986,10 +3986,10 @@ UPDATE `item_template` SET `Quality` = 2, `armor` = 122, `BuyPrice` = 4674, `Sel
 UPDATE `item_template` SET `BuyPrice` = 4222 WHERE entry=6460;
 
 /*  Slime-encrusted Pads  */
-UPDATE `item_template` SET `spellid_1` = 18764, `RequiredLevel` = 22 WHERE entry=6461 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellid_1` = 18764, `RequiredLevel` = 22 WHERE entry=6461;
 
 /*  Deep Fathom Ring  */
-UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 21 WHERE entry=6463 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 21 WHERE entry=6463;
 
 /*  Robe of the Moccasin  */
 UPDATE `item_template` SET `Quality` = 2, `armor` = 36, `BuyPrice` = 3843, `SellPrice` = 768, `MaxDurability` = 60, `stat_type1` = 4, `stat_value1` = 2, `stat_value2` = 2, `stat_type3` = 6, `stat_value3` = 6, `DisenchantID` = 3, `spellid_1` = 0, `spelltrigger_1` = 0, `StatsCount` = 3 WHERE entry=6465;
@@ -4226,7 +4226,7 @@ UPDATE `item_template` SET `BuyPrice` = 11019, `SellPrice` = 2203 WHERE entry=66
 UPDATE `item_template` SET `BuyPrice` = 277000, `SellPrice` = 55400, `DisenchantID` = 49 WHERE entry=6622;
 
 /*  Mutant Scale Breastplate  */
-UPDATE `item_template` SET `RequiredLevel` = 23 WHERE entry=6627 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 23 WHERE entry=6627;
 
 /*  Raven's Claws  */
 UPDATE `item_template` SET `BuyPrice` = 1851 WHERE entry=6628;
@@ -4244,7 +4244,7 @@ UPDATE `item_template` SET `Quality` = 2, `armor` = 17, `BuyPrice` = 3211, `Sell
 UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 10659, `SellPrice` = 2131, `dmg_min1` = 23.0, `dmg_max1` = 44.0, `MaxDurability` = 65, `stat_value1` = 2, `stat_value2` = 2, `DisenchantID` = 23 WHERE entry=6633;
 
 /*  Haunting Blade  */
-UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 18376, `SellPrice` = 3675, `dmg_min1` = 53.0, `dmg_max1` = 80.0, `MaxDurability` = 80, `stat_type1` = 6, `stat_value1` = 9, `DisenchantID` = 24, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 21, `StatsCount` = 1 WHERE entry=6641 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 18376, `SellPrice` = 3675, `dmg_min1` = 53.0, `dmg_max1` = 80.0, `MaxDurability` = 80, `stat_type1` = 6, `stat_value1` = 9, `DisenchantID` = 24, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 21, `StatsCount` = 1 WHERE entry=6641;
 
 /*  Phantom Armor  */
 UPDATE `item_template` SET `BuyPrice` = 9402, `stat_type1` = 6 WHERE entry=6642;
@@ -4286,10 +4286,10 @@ UPDATE `item_template` SET `Quality` = 2, `armor` = 44, `BuyPrice` = 9504, `Sell
 UPDATE `item_template` SET `Quality` = 2, `armor` = 32, `BuyPrice` = 6554, `SellPrice` = 1310, `MaxDurability` = 45, `DisenchantID` = 4, `spellid_1` = 0, `spelltrigger_1` = 0 WHERE entry=6685;
 
 /*  Tusken Helm  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 168, `BuyPrice` = 13135, `SellPrice` = 2627, `MaxDurability` = 60, `stat_value1` = 9, `stat_value2` = 8, `DisenchantID` = 5, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 28 WHERE entry=6686 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 168, `BuyPrice` = 13135, `SellPrice` = 2627, `MaxDurability` = 60, `stat_value1` = 9, `stat_value2` = 8, `DisenchantID` = 5, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 28 WHERE entry=6686;
 
 /*  Corpsemaker  */
-UPDATE `item_template` SET `BuyPrice` = 49652, `RequiredLevel` = 29 WHERE entry=6687 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 49652, `RequiredLevel` = 29 WHERE entry=6687;
 
 /*  Whisperwind Headdress  */
 UPDATE `item_template` SET `Quality` = 2, `armor` = 79, `BuyPrice` = 10295, `SellPrice` = 2059, `MaxDurability` = 50, `DisenchantID` = 5, `spellid_1` = 0, `spelltrigger_1` = 0 WHERE entry=6688;
@@ -4304,13 +4304,13 @@ UPDATE `item_template` SET `Quality` = 2, `armor` = 87, `BuyPrice` = 16731, `Sel
 UPDATE `item_template` SET `BuyPrice` = 44332 WHERE entry=6691;
 
 /*  Pronged Reaver  */
-UPDATE `item_template` SET `BuyPrice` = 48942, `RequiredLevel` = 31 WHERE entry=6692 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 48942, `RequiredLevel` = 31 WHERE entry=6692;
 
 /*  Agamaggan's Clutch  */
-UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 31 WHERE entry=6693 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 31 WHERE entry=6693;
 
 /*  Heart of Agamaggan  */
-UPDATE `item_template` SET `spellcooldown_1` = -1, `RequiredLevel` = 31 WHERE entry=6694 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellcooldown_1` = -1, `RequiredLevel` = 31 WHERE entry=6694;
 
 /*  Stygian Bone Amulet  */
 UPDATE `item_template` SET `spellcooldown_1` = -1 WHERE entry=6695;
@@ -4424,7 +4424,7 @@ UPDATE `item_template` SET `BuyPrice` = 10159, `SellPrice` = 2031 WHERE entry=67
 UPDATE `item_template` SET `spellid_1` = 0, `spelltrigger_1` = 0 WHERE entry=6786;
 
 /*  White Woolen Dress  */
-UPDATE `item_template` SET `armor` = 34, `BuyPrice` = 2331, `SellPrice` = 466, `ItemLevel` = 22, `MaxDurability` = 60, `RequiredLevel` = 17 WHERE entry=6787 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 34, `BuyPrice` = 2331, `SellPrice` = 466, `ItemLevel` = 22, `MaxDurability` = 60, `RequiredLevel` = 17 WHERE entry=6787;
 
 /*  Ceremonial Centaur Blanket  */
 UPDATE `item_template` SET `BuyPrice` = 20060 WHERE entry=6789;
@@ -4469,7 +4469,7 @@ UPDATE `item_template` SET `BuyPrice` = 18849, `SellPrice` = 3769 WHERE entry=68
 UPDATE `item_template` SET `BuyPrice` = 2000, `SellPrice` = 500 WHERE entry=6833;
 
 /*  Black Tuxedo  */
-UPDATE `item_template` SET `RequiredLevel` = 0 WHERE entry=6834 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 0 WHERE entry=6834;
 
 /*  Black Tuxedo Pants  */
 UPDATE `item_template` SET `armor` = 0, `BuyPrice` = 2521, `SellPrice` = 504, `MaxDurability` = 0 WHERE entry=6835;
@@ -4499,13 +4499,13 @@ UPDATE `item_template` SET `BuyPrice` = 9364, `SellPrice` = 1872, `stat_type1` =
 UPDATE `item_template` SET `Quality` = 2, `armor` = 22, `BuyPrice` = 2611, `SellPrice` = 522, `MaxDurability` = 25, `DisenchantID` = 3, `spellid_1` = 0, `spelltrigger_1` = 0 WHERE entry=6908;
 
 /*  Strike of the Hydra  */
-UPDATE `item_template` SET `BuyPrice` = 35777, `RequiredLevel` = 26 WHERE entry=6909 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 35777, `RequiredLevel` = 26 WHERE entry=6909;
 
 /*  Leech Pants  */
-UPDATE `item_template` SET `BuyPrice` = 11492, `RequiredLevel` = 26 WHERE entry=6910 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 11492, `RequiredLevel` = 26 WHERE entry=6910;
 
 /*  Moss Cinch  */
-UPDATE `item_template` SET `RequiredLevel` = 26 WHERE entry=6911 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 26 WHERE entry=6911;
 
 /*  Elunite Dagger  */
 UPDATE `item_template` SET `BuyPrice` = 3506 WHERE entry=6969;
@@ -4562,7 +4562,7 @@ UPDATE `item_template` SET `BuyPrice` = 23504, `SellPrice` = 4700, `stat_value1`
 UPDATE `item_template` SET `BuyPrice` = 7519, `SellPrice` = 1503 WHERE entry=7055;
 
 /*  Crimson Silk Vest  */
-UPDATE `item_template` SET `Quality` = 1, `BuyPrice` = 10262, `SellPrice` = 2052, `ItemLevel` = 37, `bonding` = 0, `stat_type1` = 0, `stat_value1` = 0, `stat_type2` = 0, `stat_value2` = 0, `DisenchantID` = 0, `RequiredLevel` = 32 WHERE entry=7058 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 1, `BuyPrice` = 10262, `SellPrice` = 2052, `ItemLevel` = 37, `bonding` = 0, `stat_type1` = 0, `stat_value1` = 0, `stat_type2` = 0, `stat_value2` = 0, `DisenchantID` = 0, `RequiredLevel` = 32 WHERE entry=7058;
 
 /*  Crimson Silk Shoulders  */
 UPDATE `item_template` SET `BuyPrice` = 13905 WHERE entry=7059;
@@ -4610,7 +4610,7 @@ UPDATE `item_template` SET `spellid_1` = 9174 WHERE entry=7133;
 UPDATE `item_template` SET `dmg_min1` = 50.0, `dmg_max1` = 100.0 WHERE entry=7170;
 
 /*  VanCleef's Boots  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 59, `BuyPrice` = 4898, `SellPrice` = 979, `ItemLevel` = 25, `MaxDurability` = 40, `stat_value1` = 6, `RequiredLevel` = 20, `StatsCount` = 1 WHERE entry=7187 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 59, `BuyPrice` = 4898, `SellPrice` = 979, `ItemLevel` = 25, `MaxDurability` = 40, `stat_value1` = 6, `RequiredLevel` = 20, `StatsCount` = 1 WHERE entry=7187;
 
 /*  Stormwind Guard Shield  */
 UPDATE `item_template` SET `armor` = 478, `block` = 9, `bonding` = 2, `MaxDurability` = 75, `shadow_res` = 0, `stat_type1` = 4, `stat_value1` = 2, `stat_type2` = 7, `stat_value2` = 4, `DisenchantID` = 0, `StatsCount` = 2 WHERE entry=7188;
@@ -5789,28 +5789,28 @@ UPDATE `item_template` SET `BuyPrice` = 18925, `SellPrice` = 3785 WHERE entry=94
 UPDATE `item_template` SET `Quality` = 2, `armor` = 186, `BuyPrice` = 35780, `SellPrice` = 7156, `MaxDurability` = 60, `stat_type1` = 4, `stat_value1` = 2, `stat_value2` = 9, `stat_type3` = 6, `stat_value3` = 9, `DisenchantID` = 7, `spellid_1` = 0, `spelltrigger_1` = 0, `StatsCount` = 3 WHERE entry=9411;
 
 /*  Galgann's Fireblaster  */
-UPDATE `item_template` SET `dmg_min1` = 44.0, `dmg_max1` = 84.0, `RequiredLevel` = 42 WHERE entry=9412 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `dmg_min1` = 44.0, `dmg_max1` = 84.0, `RequiredLevel` = 42 WHERE entry=9412;
 
 /*  The Rockpounder  */
-UPDATE `item_template` SET `BuyPrice` = 161244, `SellPrice` = 32248, `RequiredLevel` = 44 WHERE entry=9413 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 161244, `SellPrice` = 32248, `RequiredLevel` = 44 WHERE entry=9413;
 
 /*  Oilskin Leggings  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 108, `BuyPrice` = 43227, `SellPrice` = 8645, `MaxDurability` = 65, `stat_value1` = 13, `stat_type2` = 6, `stat_value2` = 12, `DisenchantID` = 8, `RequiredLevel` = 41 WHERE entry=9414 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 108, `BuyPrice` = 43227, `SellPrice` = 8645, `MaxDurability` = 65, `stat_value1` = 13, `stat_type2` = 6, `stat_value2` = 12, `DisenchantID` = 8, `RequiredLevel` = 41 WHERE entry=9414;
 
 /*  Grimlok's Tribal Vestments  */
-UPDATE `item_template` SET `stat_value2` = 20, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 42 WHERE entry=9415 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `stat_value2` = 20, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 42 WHERE entry=9415;
 
 /*  Grimlok's Charge  */
-UPDATE `item_template` SET `BuyPrice` = 141092, `stat_type2` = 4, `stat_value2` = 10, `stat_type3` = 7, `stat_value3` = 15, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 42, `StatsCount` = 3 WHERE entry=9416 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 141092, `stat_type2` = 4, `stat_value2` = 10, `stat_type3` = 7, `stat_value3` = 15, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 42, `StatsCount` = 3 WHERE entry=9416;
 
 /*  Archaedic Shard  */
 UPDATE `item_template` SET `DisenchantID` = 0, `spelltrigger_1` = 0 WHERE entry=9417;
 
 /*  Stoneslayer  */
-UPDATE `item_template` SET `BuyPrice` = 164258, `RequiredLevel` = 44 WHERE entry=9418 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 164258, `RequiredLevel` = 44 WHERE entry=9418;
 
 /*  Galgann's Firehammer  */
-UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 90384, `SellPrice` = 18076, `dmg_min1` = 42.0, `dmg_max1` = 79.0, `MaxDurability` = 75, `stat_type1` = 0, `stat_value1` = 0, `DisenchantID` = 28, `RequiredLevel` = 41 WHERE entry=9419 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 90384, `SellPrice` = 18076, `dmg_min1` = 42.0, `dmg_max1` = 79.0, `MaxDurability` = 75, `stat_type1` = 0, `stat_value1` = 0, `DisenchantID` = 28, `RequiredLevel` = 41 WHERE entry=9419;
 
 /*  Adventurer's Pith Helmet  */
 UPDATE `item_template` SET `BuyPrice` = 20416, `stat_type1` = 6 WHERE entry=9420;
@@ -5858,16 +5858,16 @@ UPDATE `item_template` SET `BuyPrice` = 14583 WHERE entry=9435;
 UPDATE `item_template` SET `BuyPrice` = 11302, `stat_type3` = 6 WHERE entry=9445;
 
 /*  Electrocutioner Leg  */
-UPDATE `item_template` SET `RequiredLevel` = 29 WHERE entry=9446 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 29 WHERE entry=9446;
 
 /*  Electrocutioner Lagnut  */
-UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 29 WHERE entry=9447 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 29 WHERE entry=9447;
 
 /*  Spidertank Oilrag  */
 UPDATE `item_template` SET `Quality` = 2, `armor` = 20, `BuyPrice` = 5774, `SellPrice` = 1154, `MaxDurability` = 25, `stat_type1` = 0, `stat_value1` = 0, `DisenchantID` = 5 WHERE entry=9448;
 
 /*  Manual Crowd Pummeler  */
-UPDATE `item_template` SET `BuyPrice` = 47822, `spellcharges_1` = 3, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 29 WHERE entry=9449 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 47822, `spellcharges_1` = 3, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 29 WHERE entry=9449;
 
 /*  Gnomebot Operating Boots  */
 UPDATE `item_template` SET `Quality` = 2, `armor` = 68, `BuyPrice` = 10908, `SellPrice` = 2181, `MaxDurability` = 45, `stat_type2` = 6, `DisenchantID` = 5, `spellid_1` = 0, `spelltrigger_1` = 0 WHERE entry=9450;
@@ -5888,13 +5888,13 @@ UPDATE `item_template` SET `dmg_min1` = 36.0, `dmg_max1` = 68.0 WHERE entry=9456
 UPDATE `item_template` SET `BuyPrice` = 44510 WHERE entry=9457;
 
 /*  Thermaplugg's Central Core  */
-UPDATE `item_template` SET `BuyPrice` = 34589, `SellPrice` = 6917, `RequiredLevel` = 32 WHERE entry=9458 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 34589, `SellPrice` = 6917, `RequiredLevel` = 32 WHERE entry=9458;
 
 /*  Thermaplugg's Left Arm  */
-UPDATE `item_template` SET `BuyPrice` = 67801, `RequiredLevel` = 32 WHERE entry=9459 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 67801, `RequiredLevel` = 32 WHERE entry=9459;
 
 /*  Charged Gear  */
-UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 32 WHERE entry=9461 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 32 WHERE entry=9461;
 
 /*  Gahz'rilla Fang  */
 UPDATE `item_template` SET `Quality` = 2, `BuyPrice` = 93409, `SellPrice` = 18681, `dmg_min1` = 35.0, `dmg_max1` = 66.0, `MaxDurability` = 55, `DisenchantID` = 28 WHERE entry=9467;
@@ -5957,7 +5957,7 @@ UPDATE `item_template` SET `BuyPrice` = 30609, `SellPrice` = 6121 WHERE entry=94
 UPDATE `item_template` SET `stat_type4` = 3, `stat_value4` = 3, `spellid_1` = 0, `spelltrigger_1` = 0, `StatsCount` = 4 WHERE entry=9491;
 
 /*  Electromagnetic Gigaflux Reactivator  */
-UPDATE `item_template` SET `RequiredLevel` = 32 WHERE entry=9492 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 32 WHERE entry=9492;
 
 /*  Mechbuilder's Overalls  */
 UPDATE `item_template` SET `BuyPrice` = 11762 WHERE entry=9508;
@@ -6563,10 +6563,10 @@ UPDATE `item_template` SET `BuyPrice` = 30263, `DisenchantID` = 0, `spellid_1` =
 UPDATE `item_template` SET `BuyPrice` = 30377 WHERE entry=10033;
 
 /*  Tuxedo Pants  */
-UPDATE `item_template` SET `BuyPrice` = 8676, `RequiredLevel` = 30 WHERE entry=10035 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 8676, `RequiredLevel` = 30 WHERE entry=10035;
 
 /*  Tuxedo Jacket  */
-UPDATE `item_template` SET `armor` = 44, `BuyPrice` = 8708, `ItemLevel` = 35, `MaxDurability` = 70, `RequiredLevel` = 30 WHERE entry=10036 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 44, `BuyPrice` = 8708, `ItemLevel` = 35, `MaxDurability` = 70, `RequiredLevel` = 30 WHERE entry=10036;
 
 /*  Stormcloth Shoulders  */
 UPDATE `item_template` SET `BuyPrice` = 33103, `DisenchantID` = 0, `spellid_1` = 9328 WHERE entry=10038;
@@ -7436,19 +7436,19 @@ UPDATE `item_template` SET `BuyPrice` = 53170, `stat_type1` = 3, `stat_value1` =
 UPDATE `item_template` SET `Quality` = 2, `armor` = 68, `BuyPrice` = 12141, `SellPrice` = 2428, `MaxDurability` = 30, `stat_value1` = 8, `stat_value2` = 8, `DisenchantID` = 6 WHERE entry=10760;
 
 /*  Coldrage Dagger  */
-UPDATE `item_template` SET `RequiredLevel` = 39 WHERE entry=10761 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 39 WHERE entry=10761;
 
 /*  Robes of the Lich  */
-UPDATE `item_template` SET `stat_value2` = 20, `stat_type3` = 0, `stat_value3` = 0, `RequiredLevel` = 39 WHERE entry=10762 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `stat_value2` = 20, `stat_type3` = 0, `stat_value3` = 0, `RequiredLevel` = 39 WHERE entry=10762;
 
 /*  Icemetal Barbute  */
 UPDATE `item_template` SET `BuyPrice` = 25989, `SellPrice` = 5197, `stat_type2` = 6, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1 WHERE entry=10763;
 
 /*  Deathchill Armor  */
-UPDATE `item_template` SET `BuyPrice` = 52173, `stat_type1` = 6, `stat_value1` = 20, `stat_type3` = 7, `stat_value3` = 3, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 39, `StatsCount` = 3 WHERE entry=10764 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 52173, `stat_type1` = 6, `stat_value1` = 20, `stat_type3` = 7, `stat_value3` = 3, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 39, `StatsCount` = 3 WHERE entry=10764;
 
 /*  Bonefingers  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 73, `BuyPrice` = 16837, `SellPrice` = 3367, `MaxDurability` = 30, `DisenchantID` = 7, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 38 WHERE entry=10765 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 73, `BuyPrice` = 16837, `SellPrice` = 3367, `MaxDurability` = 30, `DisenchantID` = 7, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 38 WHERE entry=10765;
 
 /*  Plaguerot Sprig  */
 UPDATE `item_template` SET `shadow_res` = 7, `spellid_1` = 0, `spelltrigger_1` = 0, `spellcooldown_1` = -1 WHERE entry=10766;
@@ -7484,13 +7484,13 @@ UPDATE `item_template` SET `BuyPrice` = 20070 WHERE entry=10777;
 UPDATE `item_template` SET `spellcooldown_1` = -1 WHERE entry=10778;
 
 /*  Mark of Hakkar  */
-UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 0 WHERE entry=10780 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 0 WHERE entry=10780;
 
 /*  Hakkari Breastplate  */
-UPDATE `item_template` SET `RequiredLevel` = 0 WHERE entry=10781 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 0 WHERE entry=10781;
 
 /*  Hakkari Shroud  */
-UPDATE `item_template` SET `RequiredLevel` = 0 WHERE entry=10782 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 0 WHERE entry=10782;
 
 /*  Atal'ai Spaulders  */
 UPDATE `item_template` SET `BuyPrice` = 57381 WHERE entry=10783;
@@ -7550,19 +7550,19 @@ UPDATE `item_template` SET `BuyPrice` = 88981 WHERE entry=10823;
 UPDATE `item_template` SET `spellcooldown_1` = -1 WHERE entry=10824;
 
 /*  Dire Nail  */
-UPDATE `item_template` SET `BuyPrice` = 202136, `shadow_res` = 5, `stat_type1` = 0, `stat_value1` = 0, `RequiredLevel` = 51 WHERE entry=10828 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 202136, `shadow_res` = 5, `stat_type1` = 0, `stat_value1` = 0, `RequiredLevel` = 51 WHERE entry=10828;
 
 /*  Horns of Eranikus  */
-UPDATE `item_template` SET `BuyPrice` = 42986, `stat_type1` = 6, `stat_value1` = 11, `stat_value2` = 27, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 51 WHERE entry=10833 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 42986, `stat_type1` = 6, `stat_value1` = 11, `stat_value2` = 27, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 51 WHERE entry=10833;
 
 /*  Crest of Supremacy  */
-UPDATE `item_template` SET `stat_type1` = 3, `stat_value1` = 6, `stat_value2` = 7, `stat_type3` = 6, `stat_value3` = 7, `stat_type4` = 7, `stat_value4` = 7, `stat_type5` = 4, `stat_value5` = 6, `spellid_1` = 0, `spelltrigger_1` = 0, `spellcooldown_1` = -1, `RequiredLevel` = 51, `StatsCount` = 5 WHERE entry=10835 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `stat_type1` = 3, `stat_value1` = 6, `stat_value2` = 7, `stat_type3` = 6, `stat_value3` = 7, `stat_type4` = 7, `stat_value4` = 7, `stat_type5` = 4, `stat_value5` = 6, `spellid_1` = 0, `spelltrigger_1` = 0, `spellcooldown_1` = -1, `RequiredLevel` = 51, `StatsCount` = 5 WHERE entry=10835;
 
 /*  Rod of Corrosion  */
-UPDATE `item_template` SET `BuyPrice` = 144946, `nature_res` = 10, `stat_type1` = 0, `stat_value1` = 0, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 51 WHERE entry=10836 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 144946, `nature_res` = 10, `stat_type1` = 0, `stat_value1` = 0, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 51 WHERE entry=10836;
 
 /*  Tooth of Eranikus  */
-UPDATE `item_template` SET `stat_type2` = 0, `stat_value2` = 0, `spellid_1` = 15464, `RequiredLevel` = 51 WHERE entry=10837 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `stat_type2` = 0, `stat_value2` = 0, `spellid_1` = 15464, `RequiredLevel` = 51 WHERE entry=10837;
 
 /*  Might of Hakkar  */
 UPDATE `item_template` SET `stat_type1` = 7, `stat_type2` = 6, `spellcooldown_1` = -1 WHERE entry=10838;
@@ -7586,7 +7586,7 @@ UPDATE `item_template` SET `stat_type3` = 4, `stat_value3` = 5, `spellid_1` = 0,
 UPDATE `item_template` SET `BuyPrice` = 1074, `SellPrice` = 214 WHERE entry=10919;
 
 /*  Archaedic Stone  */
-UPDATE `item_template` SET `spellcooldown_1` = -1, `RequiredLevel` = 42 WHERE entry=11118 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellcooldown_1` = -1, `RequiredLevel` = 42 WHERE entry=11118;
 
 /*  Belgrom's Hammer  */
 UPDATE `item_template` SET `BuyPrice` = 150720 WHERE entry=11120;
@@ -7655,10 +7655,10 @@ UPDATE `item_template` SET `dmg_min1` = 43.0, `dmg_max1` = 80.0 WHERE entry=1130
 UPDATE `item_template` SET `BuyPrice` = 78828, `dmg_min1` = 32.0, `dmg_max1` = 59.0 WHERE entry=11308;
 
 /*  Flameseer Mantle  */
-UPDATE `item_template` SET `BuyPrice` = 32990, `spellid_1` = 9401, `RequiredLevel` = 42 WHERE entry=11310 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 32990, `spellid_1` = 9401, `RequiredLevel` = 42 WHERE entry=11310;
 
 /*  Emberscale Cape  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 30, `BuyPrice` = 25553, `SellPrice` = 5110, `stat_value1` = 3, `stat_value2` = 10, `DisenchantID` = 8, `RequiredLevel` = 41 WHERE entry=11311 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 30, `BuyPrice` = 25553, `SellPrice` = 5110, `stat_value1` = 3, `stat_value2` = 10, `DisenchantID` = 8, `RequiredLevel` = 41 WHERE entry=11311;
 
 /*  Bloodband Bracers  */
 UPDATE `item_template` SET `BuyPrice` = 17815 WHERE entry=11469;
@@ -8309,7 +8309,7 @@ UPDATE `item_template` SET `BuyPrice` = 34327, `stat_value1` = 19, `stat_type3` 
 UPDATE `item_template` SET `dmg_min1` = 18.0, `dmg_max1` = 19.0, `MaxDurability` = 55, `spellcooldown_1` = -1 WHERE entry=12468;
 
 /*  Mutilator  */
-UPDATE `item_template` SET `BuyPrice` = 145898, `SellPrice` = 29179, `ItemLevel` = 47, `dmg_min1` = 82.0, `dmg_max1` = 124.0, `MaxDurability` = 100, `RequiredLevel` = 42 WHERE entry=12469 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 145898, `SellPrice` = 29179, `ItemLevel` = 47, `dmg_min1` = 82.0, `dmg_max1` = 124.0, `MaxDurability` = 100, `RequiredLevel` = 42 WHERE entry=12469;
 
 /*  Sandstalker Ankleguards  */
 UPDATE `item_template` SET `stat_type2` = 6, `stat_type3` = 4, `stat_value3` = 6 WHERE entry=12470;
@@ -10907,7 +10907,7 @@ UPDATE `item_template` SET `fire_res` = 12, `stat_type1` = 7, `stat_value1` = 8,
 UPDATE `item_template` SET `BuyPrice` = 108683, `fire_res` = 6, `stat_type1` = 7, `stat_value1` = 9, `stat_type2` = 0, `stat_value2` = 0, `stat_type3` = 0, `stat_value3` = 0, `DisenchantID` = 49, `spellid_1` = 14049 WHERE entry=15051;
 
 /*  Black Dragonscale Leggings  */
-UPDATE `item_template` SET `armor` = 320, `BuyPrice` = 159667, `SellPrice` = 31933, `ItemLevel` = 62, `fire_res` = 13, `stat_type1` = 7, `stat_value1` = 8, `stat_type2` = 0, `stat_value2` = 0, `stat_type3` = 0, `stat_value3` = 0, `DisenchantID` = 49, `spellid_1` = 15813, `RequiredLevel` = 57 WHERE entry=15052 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 320, `BuyPrice` = 159667, `SellPrice` = 31933, `ItemLevel` = 62, `fire_res` = 13, `stat_type1` = 7, `stat_value1` = 8, `stat_type2` = 0, `stat_value2` = 0, `stat_type3` = 0, `stat_value3` = 0, `DisenchantID` = 49, `spellid_1` = 15813, `RequiredLevel` = 57 WHERE entry=15052;
 
 /*  Volcanic Breastplate  */
 UPDATE `item_template` SET `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1 WHERE entry=15053;
@@ -14075,22 +14075,22 @@ UPDATE `item_template` SET `BuyPrice` = 45890 WHERE entry=17704;
 UPDATE `item_template` SET `BuyPrice` = 164272, `spellppmrate_1` = 1.0 WHERE entry=17705;
 
 /*  Gemshard Heart  */
-UPDATE `item_template` SET `spellcooldown_1` = -1, `RequiredLevel` = 49 WHERE entry=17707 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `spellcooldown_1` = -1, `RequiredLevel` = 49 WHERE entry=17707;
 
 /*  Charstone Dirk  */
-UPDATE `item_template` SET `RequiredLevel` = 49 WHERE entry=17710 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 49 WHERE entry=17710;
 
 /*  Elemental Rockridge Leggings  */
-UPDATE `item_template` SET `BuyPrice` = 71223, `SellPrice` = 14244, `nature_res` = 10, `stat_type3` = 0, `stat_value3` = 0, `RequiredLevel` = 49 WHERE entry=17711 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 71223, `SellPrice` = 14244, `nature_res` = 10, `stat_type3` = 0, `stat_value3` = 0, `RequiredLevel` = 49 WHERE entry=17711;
 
 /*  Blackstone Ring  */
-UPDATE `item_template` SET `RequiredLevel` = 49 WHERE entry=17713 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 49 WHERE entry=17713;
 
 /*  Bracers of the Stone Princess  */
-UPDATE `item_template` SET `BuyPrice` = 51128, `SellPrice` = 10225, `RequiredLevel` = 49 WHERE entry=17714 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 51128, `SellPrice` = 10225, `RequiredLevel` = 49 WHERE entry=17714;
 
 /*  Eye of Theradras  */
-UPDATE `item_template` SET `BuyPrice` = 51128, `SellPrice` = 10225, `RequiredLevel` = 49 WHERE entry=17715 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 51128, `SellPrice` = 10225, `RequiredLevel` = 49 WHERE entry=17715;
 
 /*  Megashot Rifle  */
 UPDATE `item_template` SET `BuyPrice` = 132129, `SellPrice` = 26425, `dmg_min1` = 32.0, `dmg_max1` = 61.0, `arcane_res` = 5, `stat_type1` = 0, `stat_value1` = 0 WHERE entry=17717;
@@ -14117,13 +14117,13 @@ UPDATE `item_template` SET `BuyPrice` = 48234, `SellPrice` = 9646 WHERE entry=17
 UPDATE `item_template` SET `arcane_res` = 10, `spellid_1` = 0, `spelltrigger_1` = 0 WHERE entry=17737;
 
 /*  Claw of Celebras  */
-UPDATE `item_template` SET `BuyPrice` = 166758, `RequiredLevel` = 47 WHERE entry=17738 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 166758, `RequiredLevel` = 47 WHERE entry=17738;
 
 /*  Grovekeeper's Drape  */
-UPDATE `item_template` SET `BuyPrice` = 45504, `SellPrice` = 9100, `nature_res` = 10, `stat_type2` = 0, `stat_value2` = 0, `RequiredLevel` = 47 WHERE entry=17739 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 45504, `SellPrice` = 9100, `nature_res` = 10, `stat_type2` = 0, `stat_value2` = 0, `RequiredLevel` = 47 WHERE entry=17739;
 
 /*  Soothsayer's Headdress  */
-UPDATE `item_template` SET `stat_type1` = 5, `stat_value1` = 25, `stat_type2` = 6, `stat_type3` = 7, `stat_value3` = 7, `spellid_1` = 0, `spelltrigger_1` = 0, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 47, `StatsCount` = 3 WHERE entry=17740 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `stat_type1` = 5, `stat_value1` = 25, `stat_type2` = 6, `stat_type3` = 7, `stat_value3` = 7, `spellid_1` = 0, `spelltrigger_1` = 0, `spellcooldown_1` = -1, `spellcategorycooldown_1` = -1, `RequiredLevel` = 47, `StatsCount` = 3 WHERE entry=17740;
 
 /*  Nature's Embrace  */
 UPDATE `item_template` SET `BuyPrice` = 57238, `SellPrice` = 11447, `spellid_1` = 21518 WHERE entry=17741;
@@ -14150,22 +14150,22 @@ UPDATE `item_template` SET `Quality` = 2, `armor` = 37, `BuyPrice` = 23848, `Sel
 UPDATE `item_template` SET `Quality` = 2, `armor` = 118, `BuyPrice` = 63936, `SellPrice` = 12787, `MaxDurability` = 65, `nature_res` = 10, `stat_value1` = 15, `stat_value2` = 11, `DisenchantID` = 9, `spelltrigger_1` = 0 WHERE entry=17751;
 
 /*  Satyr's Lash  */
-UPDATE `item_template` SET `BuyPrice` = 143928, `RequiredLevel` = 45 WHERE entry=17752 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 143928, `RequiredLevel` = 45 WHERE entry=17752;
 
 /*  Verdant Keeper's Aim  */
 UPDATE `item_template` SET `dmg_min1` = 53.0, `dmg_max1` = 100.0 WHERE entry=17753;
 
 /*  Infernal Trickster Leggings  */
-UPDATE `item_template` SET `stat_type3` = 0, `stat_value3` = 0, `spellid_1` = 7569, `RequiredLevel` = 45 WHERE entry=17754 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `stat_type3` = 0, `stat_value3` = 0, `spellid_1` = 7569, `RequiredLevel` = 45 WHERE entry=17754;
 
 /*  Satyrmane Sash  */
-UPDATE `item_template` SET `BuyPrice` = 29093, `shadow_res` = 10, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 45 WHERE entry=17755 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 29093, `shadow_res` = 10, `spellid_1` = 0, `spelltrigger_1` = 0, `RequiredLevel` = 45 WHERE entry=17755;
 
 /*  Mark of Resolution  */
 UPDATE `item_template` SET `Quality` = 2, `stat_type1` = 0, `stat_value1` = 0, `spellcooldown_1` = 1800000, `spellid_2` = 21958 WHERE entry=17759;
 
 /*  Princess Theradras' Scepter  */
-UPDATE `item_template` SET `BuyPrice` = 224317, `RequiredLevel` = 49 WHERE entry=17766 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `BuyPrice` = 224317, `RequiredLevel` = 49 WHERE entry=17766;
 
 /*  Bloomsprout Headpiece  */
 UPDATE `item_template` SET `nature_res` = 10, `stat_type2` = 0, `stat_value2` = 0 WHERE entry=17767;
@@ -14321,10 +14321,10 @@ UPDATE `item_template` SET `spellid_1` = 9358 WHERE entry=18289;
 UPDATE `item_template` SET `stat_type3` = 0, `stat_value3` = 0, `spellid_1` = 7570, `spellid_2` = 22811, `spellid_3` = 7582 WHERE entry=18296;
 
 /*  Nimble Buckler  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 1776, `BuyPrice` = 126160, `SellPrice` = 25232, `ItemLevel` = 58, `block` = 32, `MaxDurability` = 85, `stat_type1` = 3, `stat_value1` = 5, `stat_type2` = 0, `stat_value2` = 0, `stat_type3` = 0, `stat_value3` = 0, `spellid_1` = 21475, `spelltrigger_1` = 1, `RequiredLevel` = 53, `StatsCount` = 3 WHERE entry=18303 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 1776, `BuyPrice` = 126160, `SellPrice` = 25232, `ItemLevel` = 58, `block` = 32, `MaxDurability` = 85, `stat_type1` = 3, `stat_value1` = 5, `stat_type2` = 0, `stat_value2` = 0, `stat_type3` = 0, `stat_value3` = 0, `spellid_1` = 21475, `spelltrigger_1` = 1, `RequiredLevel` = 53, `StatsCount` = 3 WHERE entry=18303;
 
 /*  Greenroot Mail  */
-UPDATE `item_template` SET `Quality` = 2, `armor` = 313, `BuyPrice` = 107402, `SellPrice` = 21480, `ItemLevel` = 58, `MaxDurability` = 100, `stat_type2` = 0, `stat_value2` = 0, `stat_type3` = 0, `stat_value3` = 0, `spellid_1` = 18029, `spelltrigger_1` = 1, `RequiredLevel` = 53, `StatsCount` = 3 WHERE entry=18304 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `Quality` = 2, `armor` = 313, `BuyPrice` = 107402, `SellPrice` = 21480, `ItemLevel` = 58, `MaxDurability` = 100, `stat_type2` = 0, `stat_value2` = 0, `stat_type3` = 0, `stat_value3` = 0, `spellid_1` = 18029, `spelltrigger_1` = 1, `RequiredLevel` = 53, `StatsCount` = 3 WHERE entry=18304;
 
 /*  Breakwater Legguards  */
 UPDATE `item_template` SET `BuyPrice` = 71879, `SellPrice` = 14375 WHERE entry=18305;
@@ -14348,7 +14348,7 @@ UPDATE `item_template` SET `BuyPrice` = 68474, `SellPrice` = 13694 WHERE entry=1
 UPDATE `item_template` SET `spellid_1` = 14254, `spelltrigger_1` = 1 WHERE entry=18316;
 
 /*  Demonheart Spaulders  */
-UPDATE `item_template` SET `armor` = 258, `BuyPrice` = 105789, `SellPrice` = 21157, `ItemLevel` = 58, `MaxDurability` = 70, `stat_value1` = 14, `stat_value2` = 14, `stat_type3` = 4, `stat_value3` = 9, `RequiredLevel` = 53, `StatsCount` = 3 WHERE entry=18320 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 258, `BuyPrice` = 105789, `SellPrice` = 21157, `ItemLevel` = 58, `MaxDurability` = 70, `stat_value1` = 14, `stat_value2` = 14, `stat_type3` = 4, `stat_value3` = 9, `RequiredLevel` = 53, `StatsCount` = 3 WHERE entry=18320;
 
 /*  Waterspout Boots  */
 UPDATE `item_template` SET `BuyPrice` = 80686, `SellPrice` = 16137 WHERE entry=18322;
@@ -16235,7 +16235,7 @@ UPDATE `item_template` SET `BuyPrice` = 277880, `SellPrice` = 55576 WHERE entry=
 UPDATE `item_template` SET `BuyPrice` = 371867, `SellPrice` = 74373 WHERE entry=19968;
 
 /*  Nat Pagle's Extreme Anglin' Boots  */
-UPDATE `item_template` SET `RequiredLevel` = 0 WHERE entry=19969 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `RequiredLevel` = 0 WHERE entry=19969;
 
 /*  Hook of the Master Angler  */
 UPDATE `item_template` SET `DisenchantID` = 49, `spellcooldown_1` = 5000 WHERE entry=19979;
@@ -16817,7 +16817,7 @@ UPDATE `item_template` SET `spellid_1` = 13669, `spelltrigger_1` = 1, `spellcool
 UPDATE `item_template` SET `arcane_res` = 12, `stat_value1` = 20, `stat_type2` = 6, `stat_value2` = 19, `stat_type3` = 0, `stat_value3` = 0, `DisenchantID` = 49 WHERE entry=20295;
 
 /*  Green Dragonscale Gauntlets  */
-UPDATE `item_template` SET `armor` = 208, `BuyPrice` = 62954, `SellPrice` = 12590, `ItemLevel` = 56, `stat_type1` = 6, `stat_value1` = 18, `stat_type2` = 7, `stat_value2` = 5, `stat_type3` = 0, `stat_value3` = 0, `DisenchantID` = 48, `RequiredLevel` = 51 WHERE entry=20296 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 208, `BuyPrice` = 62954, `SellPrice` = 12590, `ItemLevel` = 56, `stat_type1` = 6, `stat_value1` = 18, `stat_type2` = 7, `stat_value2` = 5, `stat_type3` = 0, `stat_value3` = 0, `DisenchantID` = 48, `RequiredLevel` = 51 WHERE entry=20296;
 
 /*  90 Epic Frost Belt  */
 UPDATE `item_template` SET `spellid_1` = 18384, `spelltrigger_1` = 1, `spellid_2` = 13831, `spelltrigger_2` = 1 WHERE entry=20324;
@@ -17447,7 +17447,7 @@ UPDATE `item_template` SET `BuyPrice` = 1095018, `SellPrice` = 219003 WHERE entr
 UPDATE `item_template` SET `BuyPrice` = 997918, `SellPrice` = 199583 WHERE entry=21275;
 
 /*  Stormshroud Gloves  */
-UPDATE `item_template` SET `armor` = 109, `BuyPrice` = 66062, `SellPrice` = 13212, `ItemLevel` = 62, `stat_type1` = 0, `stat_value1` = 0, `stat_type2` = 0, `stat_value2` = 0, `DisenchantID` = 49, `spellid_1` = 7597, `spellid_2` = 15464, `RequiredLevel` = 57 WHERE entry=21278 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE `item_template` SET `armor` = 109, `BuyPrice` = 66062, `SellPrice` = 13212, `ItemLevel` = 62, `stat_type1` = 0, `stat_value1` = 0, `stat_type2` = 0, `stat_value2` = 0, `DisenchantID` = 49, `spellid_1` = 7597, `spellid_2` = 15464, `RequiredLevel` = 57 WHERE entry=21278;
 
 /*  Leggings of the Ursa  */
 UPDATE `item_template` SET `BuyPrice` = 62037, `SellPrice` = 12407 WHERE entry=21316;
@@ -19763,10 +19763,10 @@ UPDATE `item_template` SET `spellid_1` = 31750, `spelltrigger_1` = 1 WHERE entry
 /* =========== NON-EQUIPMENT ITEMS ================ */
 
 /*  Scroll of Strength  */
-UPDATE item_template SET ItemLevel = 20, RequiredLevel = 10 WHERE entry=954 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 20, RequiredLevel = 10 WHERE entry=954;
 
 /*  Scroll of Intellect  */
-UPDATE item_template SET ItemLevel = 15, RequiredLevel = 5 WHERE entry=955 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 15, RequiredLevel = 5 WHERE entry=955;
 
 /*  Large Moneybag (old)  */
 UPDATE item_template SET ItemLevel = 25, bonding = 1, class = 1 WHERE entry=1014;
@@ -19781,7 +19781,7 @@ UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry
 UPDATE item_template SET BuyPrice = 1800 WHERE entry=1057;
 
 /*  Horn of the Timber Wolf  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=1132 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=1132;
 
 /*  Horn of the Winter Wolf  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry=1133;
@@ -19790,7 +19790,7 @@ UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry=1134;
 
 /*  Scroll of Stamina  */
-UPDATE item_template SET ItemLevel = 15, RequiredLevel = 5 WHERE entry=1180 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 15, RequiredLevel = 5 WHERE entry=1180;
 
 /*  Scroll of Spirit  */
 UPDATE item_template SET ItemLevel = 10 WHERE entry=1181;
@@ -19799,28 +19799,28 @@ UPDATE item_template SET ItemLevel = 10 WHERE entry=1181;
 UPDATE item_template SET BuyPrice = 40, SellPrice = 10 WHERE entry=1251;
 
 /*  Scroll of Agility II  */
-UPDATE item_template SET ItemLevel = 35, RequiredLevel = 25 WHERE entry=1477 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 35, RequiredLevel = 25 WHERE entry=1477;
 
 /*  Scroll of Stamina II  */
-UPDATE item_template SET ItemLevel = 30, RequiredLevel = 20 WHERE entry=1711 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 30, RequiredLevel = 20 WHERE entry=1711;
 
 /*  Scroll of Strength II  */
-UPDATE item_template SET ItemLevel = 35, RequiredLevel = 25 WHERE entry=2289 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 35, RequiredLevel = 25 WHERE entry=2289;
 
 /*  Scroll of Intellect II  */
-UPDATE item_template SET ItemLevel = 30, RequiredLevel = 20 WHERE entry=2290 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 30, RequiredLevel = 20 WHERE entry=2290;
 
 /*  Light Leather  */
 UPDATE item_template SET BuyPrice = 60 WHERE entry=2318;
 
 /*  Black Stallion Bridle  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=2411 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=2411;
 
 /*  Palomino  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000, SellPrice = 0 WHERE entry=2413;
 
 /*  Pinto Bridle  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=2414 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=2414;
 
 /*  White Stallion  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000, SellPrice = 0 WHERE entry=2415;
@@ -19850,7 +19850,7 @@ UPDATE item_template SET Quality = 1, class = 7 WHERE entry=2930;
 UPDATE item_template SET Quality = 1, ItemLevel = 34, class = 7, BuyPrice = 100, SellPrice = 25 WHERE entry=2931;
 
 /*  Scroll of Agility  */
-UPDATE item_template SET ItemLevel = 20, RequiredLevel = 10 WHERE entry=3012 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 20, RequiredLevel = 10 WHERE entry=3012;
 
 /*  Scroll of Protection  */
 UPDATE item_template SET ItemLevel = 10 WHERE entry=3013;
@@ -19886,7 +19886,7 @@ UPDATE item_template SET Quality = 1, class = 0 WHERE entry=3776;
 UPDATE item_template SET class = 7 WHERE entry=3777;
 
 /*  Carefully Folded Note  */
-UPDATE item_template SET ItemLevel = 45, RequiredLevel = 45 WHERE entry=4098 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 45, RequiredLevel = 45 WHERE entry=4098;
 
 /*  Tome of Conjure Food II  */
 UPDATE item_template SET BuyPrice = 500 WHERE entry=4143;
@@ -19901,16 +19901,16 @@ UPDATE item_template SET bonding = 3 WHERE entry=4401;
 UPDATE item_template SET Quality = 1 WHERE entry=4407;
 
 /*  Scroll of Intellect III  */
-UPDATE item_template SET ItemLevel = 45, RequiredLevel = 35 WHERE entry=4419 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 45, RequiredLevel = 35 WHERE entry=4419;
 
 /*  Scroll of Stamina III  */
-UPDATE item_template SET ItemLevel = 45, RequiredLevel = 35 WHERE entry=4422 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 45, RequiredLevel = 35 WHERE entry=4422;
 
 /*  Scroll of Agility III  */
-UPDATE item_template SET ItemLevel = 50, RequiredLevel = 40 WHERE entry=4425 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, RequiredLevel = 40 WHERE entry=4425;
 
 /*  Scroll of Strength III  */
-UPDATE item_template SET ItemLevel = 50, RequiredLevel = 40 WHERE entry=4426 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, RequiredLevel = 40 WHERE entry=4426;
 
 /*  Flint and Tinder  */
 UPDATE item_template SET Quality = 1 WHERE entry=4471;
@@ -19949,10 +19949,10 @@ UPDATE item_template SET bonding = 1 WHERE entry=5462;
 UPDATE item_template SET BuyPrice = 340 WHERE entry=5632;
 
 /*  Chestnut Mare Bridle  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5655 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5655;
 
 /*  Brown Horse Bridle  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5656 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5656;
 
 /*  Recipe: Instant Toxin  */
 UPDATE item_template SET BuyPrice = 1000 WHERE entry=5657;
@@ -19964,25 +19964,25 @@ UPDATE item_template SET BuyPrice = 1300 WHERE entry=5660;
 UPDATE item_template SET Quality = 4, bonding = 1, BuyPrice = 1000000 WHERE entry=5663;
 
 /*  Horn of the Dire Wolf  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5665 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5665;
 
 /*  Horn of the Brown Wolf  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5668 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5668;
 
 /*  Henrig Lonebrow's Journal  */
-UPDATE item_template SET ItemLevel = 29, RequiredLevel = 29 WHERE entry=5791 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 29, RequiredLevel = 29 WHERE entry=5791;
 
 /*  Kravel's Scheme  */
 UPDATE item_template SET bonding = 0 WHERE entry=5826;
 
 /*  Gray Ram  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5864 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5864;
 
 /*  Brown Ram  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5872 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5872;
 
 /*  White Ram  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5873 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=5873;
 
 /*  Harness: Black Ram  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry=5874;
@@ -20009,10 +20009,10 @@ UPDATE item_template SET Quality = 1, bonding = 0 WHERE entry=6446;
 UPDATE item_template SET BuyPrice = 800, SellPrice = 200 WHERE entry=6450;
 
 /*  Stoneskin Totem Scroll  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=6648 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=6648;
 
 /*  Searing Totem Scroll  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=6649 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=6649;
 
 /*  Instant Poison  */
 UPDATE item_template SET BuyPrice = 22, SellPrice = 5 WHERE entry=6947;
@@ -20117,16 +20117,16 @@ UPDATE item_template SET BuyPrice = 1600, SellPrice = 400 WHERE entry=8544;
 UPDATE item_template SET BuyPrice = 2400, SellPrice = 600 WHERE entry=8545;
 
 /*  Red Mechanostrider  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8563 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8563;
 
 /*  Horn of the Skeletal Mount  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry=8583;
 
 /*  Whistle of the Mottled Red Raptor  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=8586 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=8586;
 
 /*  Whistle of the Emerald Raptor  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8588 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8588;
 
 /*  Old Whistle of the Ivory Raptor  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry=8589;
@@ -20135,28 +20135,28 @@ UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry=8590;
 
 /*  Whistle of the Turquoise Raptor  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8591 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8591;
 
 /*  Whistle of the Violet Raptor  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8592 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8592;
 
 /*  Blue Mechanostrider  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8595 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8595;
 
 /*  Reins of the Spotted Nightsaber  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000 WHERE entry=8628;
 
 /*  Reins of the Striped Nightsaber  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8629 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8629;
 
 /*  Reins of the Bengal Tiger  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000, SellPrice = 0 WHERE entry=8630;
 
 /*  Reins of the Striped Frostsaber  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8631 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8631;
 
 /*  Reins of the Spotted Frostsaber  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8632 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=8632;
 
 /*  Reins of the Leopard  */
 UPDATE item_template SET Quality = 3, bonding = 1, BuyPrice = 100000, SellPrice = 0 WHERE entry=8633;
@@ -20168,7 +20168,7 @@ UPDATE item_template SET bonding = 4 WHERE entry=8663;
 UPDATE item_template SET BuyPrice = 4, SellPrice = 1 WHERE entry=8683;
 
 /*  Elixir of Water Walking  */
-UPDATE item_template SET ItemLevel = 34, RequiredLevel = 24 WHERE entry=8827 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 34, RequiredLevel = 24 WHERE entry=8827;
 
 /*  Essence of Agony  */
 UPDATE item_template SET Quality = 1, class = 7 WHERE entry=8923;
@@ -20204,22 +20204,22 @@ UPDATE item_template SET Quality = 1, class = 0 WHERE entry=9186;
 UPDATE item_template SET bonding = 0 WHERE entry=9259;
 
 /*  Scroll of Protection IV  */
-UPDATE item_template SET ItemLevel = 55, RequiredLevel = 45 WHERE entry=10305 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 55, RequiredLevel = 45 WHERE entry=10305;
 
 /*  Scroll of Spirit IV  */
-UPDATE item_template SET ItemLevel = 55, RequiredLevel = 45 WHERE entry=10306 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 55, RequiredLevel = 45 WHERE entry=10306;
 
 /*  Scroll of Stamina IV  */
-UPDATE item_template SET ItemLevel = 60, RequiredLevel = 50 WHERE entry=10307 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 60, RequiredLevel = 50 WHERE entry=10307;
 
 /*  Scroll of Intellect IV  */
-UPDATE item_template SET ItemLevel = 60, RequiredLevel = 50 WHERE entry=10308 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 60, RequiredLevel = 50 WHERE entry=10308;
 
 /*  Scroll of Agility IV  */
-UPDATE item_template SET ItemLevel = 65, RequiredLevel = 55 WHERE entry=10309 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 65, RequiredLevel = 55 WHERE entry=10309;
 
 /*  Scroll of Strength IV  */
-UPDATE item_template SET ItemLevel = 65, RequiredLevel = 55 WHERE entry=10310 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 65, RequiredLevel = 55 WHERE entry=10310;
 
 /*  Black Kingsnake  */
 UPDATE item_template SET bonding = 3 WHERE entry=10360;
@@ -20288,34 +20288,34 @@ UPDATE item_template SET BuyPrice = 2000, SellPrice = 500 WHERE entry=11474;
 UPDATE item_template SET Quality = 1, bonding = 4 WHERE entry=11482;
 
 /*  Altered Black Dragonflight Molt  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=11609 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=11609;
 
 /*  Lesser Arcanum of Rumination  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11622 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11622;
 
 /*  Lesser Arcanum of Constitution  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11642 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11642;
 
 /*  Lesser Arcanum of Tenacity  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11643 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11643;
 
 /*  Lesser Arcanum of Resilience  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11644 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11644;
 
 /*  Lesser Arcanum of Voracity  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11645 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11645;
 
 /*  Lesser Arcanum of Voracity  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11646 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11646;
 
 /*  Lesser Arcanum of Voracity  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11647 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11647;
 
 /*  Lesser Arcanum of Voracity  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11648 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11648;
 
 /*  Lesser Arcanum of Voracity  */
-UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11649 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, bonding = 4, RequiredLevel = 0 WHERE entry=11649;
 
 /*  Shadowforge Torch  */
 UPDATE item_template SET BuyPrice = 2846, SellPrice = 711 WHERE entry=11885;
@@ -20327,28 +20327,28 @@ UPDATE item_template SET bonding = 3 WHERE entry=11903;
 UPDATE item_template SET BuyPrice = 6000, SellPrice = 1500 WHERE entry=12264;
 
 /*  Reins of the Nightsaber  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12303 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12303;
 
 /*  Reins of the Primal Leopard  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=12325 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=12325;
 
 /*  Reins of the Tawny Sabercat  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=12326 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=12326;
 
 /*  Reins of the Golden Sabercat  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=12327 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=12327;
 
 /*  Horn of the Red Wolf  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12330 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12330;
 
 /*  Horn of the Arctic Wolf  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12351 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12351;
 
 /*  White Stallion Bridle  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12353 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12353;
 
 /*  Palomino Bridle  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12354 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=12354;
 
 /*  Smolderweb Carrier  */
 UPDATE item_template SET BuyPrice = 6000, SellPrice = 1500 WHERE entry=12529;
@@ -20357,49 +20357,49 @@ UPDATE item_template SET BuyPrice = 6000, SellPrice = 1500 WHERE entry=12529;
 UPDATE item_template SET description = 'This object has been attuned to work against a specific being.' WHERE entry=12650;
 
 /*  Reins of the Winterspring Frostsaber  */
-UPDATE item_template SET SellPrice = 0, RequiredLevel = 60 WHERE entry=13086 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET SellPrice = 0, RequiredLevel = 60 WHERE entry=13086;
 
 /*  Whistle of the Ivory Raptor  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13317 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13317;
 
 /*  Green Mechanostrider  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13321 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13321;
 
 /*  Unpainted Mechanostrider  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13322 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13322;
 
 /*  Purple Mechanostrider  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13323 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13323;
 
 /*  Red and Blue Mechanostrider  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13324 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13324;
 
 /*  Fluorescent Green Mechanostrider  */
-UPDATE item_template SET BuyPrice = 100000, RequiredLevel = 40 WHERE entry=13325 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, RequiredLevel = 40 WHERE entry=13325;
 
 /*  Icy Blue Mechanostrider Mod A  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13327 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13327;
 
 /*  Black Ram  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13328 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13328;
 
 /*  Frost Ram  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13329 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13329;
 
 /*  Red Skeletal Horse  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13331 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13331;
 
 /*  Blue Skeletal Horse  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13332 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13332;
 
 /*  Brown Skeletal Horse  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13333 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=13333;
 
 /*  Green Skeletal Warhorse  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13334 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=13334;
 
 /*  Deathcharger's Reins  */
-UPDATE item_template SET Quality = 3, BuyPrice = 1000000, SellPrice = 250000, RequiredLevel = 60 WHERE entry=13335 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET Quality = 3, BuyPrice = 1000000, SellPrice = 250000, RequiredLevel = 60 WHERE entry=13335;
 
 /*  Crystal of Zin-Malor  */
 UPDATE item_template SET Quality = 2 WHERE entry=13347;
@@ -20438,16 +20438,16 @@ UPDATE item_template SET bonding = 4 WHERE entry=13704;
 UPDATE item_template SET BuyPrice = 2000, SellPrice = 500 WHERE entry=14529;
 
 /*  Gray Kodo  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=15277 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=15277;
 
 /*  Brown Kodo  */
-UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=15290 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, SellPrice = 0, RequiredLevel = 40 WHERE entry=15290;
 
 /*  Green Kodo  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=15292 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=15292;
 
 /*  Teal Kodo  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=15293 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=15293;
 
 /*  Ironfeather  */
 UPDATE item_template SET Quality = 1, class = 7 WHERE entry=15420;
@@ -20465,7 +20465,7 @@ UPDATE item_template SET bonding = 4 WHERE entry=15875;
 UPDATE item_template SET bonding = 3 WHERE entry=15996;
 
 /*  Expert Fishing - The Bass and You  */
-UPDATE item_template SET RequiredLevel = 20 WHERE entry=16083 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 20 WHERE entry=16083;
 
 /*  Artisan First Aid - Heal Thyself  */
 UPDATE item_template SET SellPrice = 5000 WHERE entry=16085;
@@ -20492,22 +20492,22 @@ UPDATE item_template SET bonding = 0 WHERE entry=17962;
 UPDATE item_template SET Quality = 2 WHERE entry=18153;
 
 /*  Flame Mantle of the Dawn  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=18169 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=18169;
 
 /*  Frost Mantle of the Dawn  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=18170 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=18170;
 
 /*  Arcane Mantle of the Dawn  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=18171 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=18171;
 
 /*  Nature Mantle of the Dawn  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=18172 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=18172;
 
 /*  Shadow Mantle of the Dawn  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=18173 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=18173;
 
 /*  Chromatic Mantle of the Dawn  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=18182 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=18182;
 
 /*  Black War Steed Bridle  */
 UPDATE item_template SET BuyPrice = 100000 WHERE entry=18241;
@@ -20543,13 +20543,13 @@ UPDATE item_template SET BuyPrice = 30000, SellPrice = 1500 WHERE entry=18256;
 UPDATE item_template SET bonding = 1 WHERE entry=18260;
 
 /*  Arcanum of Rapidity  */
-UPDATE item_template SET ItemLevel = 50, RequiredLevel = 0 WHERE entry=18329 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, RequiredLevel = 0 WHERE entry=18329;
 
 /*  Arcanum of Focus  */
-UPDATE item_template SET ItemLevel = 50, RequiredLevel = 0 WHERE entry=18330 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, RequiredLevel = 0 WHERE entry=18330;
 
 /*  Arcanum of Protection  */
-UPDATE item_template SET ItemLevel = 50, RequiredLevel = 0 WHERE entry=18331 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 50, RequiredLevel = 0 WHERE entry=18331;
 
 /*  Heated Ancient Blade  */
 UPDATE item_template SET Quality = 4 WHERE entry=18488;
@@ -20558,7 +20558,7 @@ UPDATE item_template SET Quality = 4 WHERE entry=18488;
 UPDATE item_template SET Quality = 4 WHERE entry=18492;
 
 /*  Vessel of Rebirth DEPRECATED  */
-UPDATE item_template SET RequiredLevel = 100 WHERE entry=18565 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 100 WHERE entry=18565;
 
 /*  Essence of the Firelord DEPRECATED  */
 UPDATE item_template SET Quality = 5 WHERE entry=18566;
@@ -20573,76 +20573,76 @@ UPDATE item_template SET BuyPrice = 50000, SellPrice = 12500 WHERE entry=18607;
 UPDATE item_template SET bonding = 1 WHERE entry=18705;
 
 /*  Reins of the Swift Frostsaber  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18766 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18766;
 
 /*  Reins of the Swift Mistsaber  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18767 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18767;
 
 /*  Reins of the Swift Dawnsaber  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18768 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18768;
 
 /*  Swift Green Mechanostrider  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18772 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18772;
 
 /*  Swift White Mechanostrider  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18773 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18773;
 
 /*  Swift Yellow Mechanostrider  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18774 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18774;
 
 /*  Swift Palomino  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18776 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18776;
 
 /*  Swift Brown Steed  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18777 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18777;
 
 /*  Swift White Steed  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18778 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18778;
 
 /*  Swift White Ram  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18785 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18785;
 
 /*  Swift Brown Ram  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18786 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18786;
 
 /*  Swift Gray Ram  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18787 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18787;
 
 /*  Swift Blue Raptor  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18788 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18788;
 
 /*  Swift Olive Raptor  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18789 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18789;
 
 /*  Swift Orange Raptor  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18790 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18790;
 
 /*  Purple Skeletal Warhorse  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18791 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18791;
 
 /*  Great White Kodo  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18793 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18793;
 
 /*  Great Brown Kodo  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18794 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18794;
 
 /*  Great Gray Kodo  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18795 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18795;
 
 /*  Horn of the Swift Brown Wolf  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18796 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18796;
 
 /*  Horn of the Swift Timber Wolf  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18797 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18797;
 
 /*  Horn of the Swift Gray Wolf  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18798 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18798;
 
 /*  Combat Mana Potion  */
 UPDATE item_template SET BuyPrice = 1100, SellPrice = 275 WHERE entry=18841;
 
 /*  Reins of the Swift Stormsaber  */
-UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18902 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 1000000, SellPrice = 0, RequiredLevel = 60 WHERE entry=18902;
 
 /*  Turtle Egg (Loggerhead)  */
 UPDATE item_template SET BuyPrice = 4000 WHERE entry=18964;
@@ -20651,10 +20651,10 @@ UPDATE item_template SET BuyPrice = 4000 WHERE entry=18964;
 UPDATE item_template SET Quality = 5 WHERE entry=19017;
 
 /*  Horn of the Frostwolf Howler  */
-UPDATE item_template SET BuyPrice = 100000, RequiredLevel = 60 WHERE entry=19029 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, RequiredLevel = 60 WHERE entry=19029;
 
 /*  Stormpike Battle Charger  */
-UPDATE item_template SET BuyPrice = 100000, RequiredLevel = 60 WHERE entry=19030 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 100000, RequiredLevel = 60 WHERE entry=19030;
 
 /*  Stormpike Battle Standard  */
 UPDATE item_template SET BuyPrice = 50000, SellPrice = 12500 WHERE entry=19045;
@@ -20681,22 +20681,22 @@ UPDATE item_template SET BuyPrice = 350000, SellPrice = 87500 WHERE entry=19319;
 UPDATE item_template SET BuyPrice = 350000, SellPrice = 87500 WHERE entry=19320;
 
 /*  Swift Razzashi Raptor  */
-UPDATE item_template SET RequiredLevel = 60 WHERE entry=19872 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 60 WHERE entry=19872;
 
 /*  Swift Zulian Tiger  */
-UPDATE item_template SET RequiredLevel = 60 WHERE entry=19902 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 60 WHERE entry=19902;
 
 /*  Zandalar Signet of Mojo  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=20076 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=20076;
 
 /*  Zandalar Signet of Might  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=20077 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=20077;
 
 /*  Zandalar Signet of Serenity  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=20078 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=20078;
 
 /*  Foror's Fabled Steed  */
-UPDATE item_template SET BuyPrice = 10000000, RequiredLevel = 60 WHERE entry=20221 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET BuyPrice = 10000000, RequiredLevel = 60 WHERE entry=20221;
 
 /*  Defiler's Enriched Ration  */
 UPDATE item_template SET RequiredReputationFaction = 510, RequiredReputationRank = 4 WHERE entry=20222;
@@ -20762,43 +20762,43 @@ UPDATE item_template SET bonding = 3 WHERE entry=20769;
 UPDATE item_template SET BuyPrice = 600, SellPrice = 150 WHERE entry=20844;
 
 /*  Golden Token  */
-UPDATE item_template SET RequiredLevel = 58 WHERE entry=20880 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 58 WHERE entry=20880;
 
 /*  Hive'Zora Scout Report  */
-UPDATE item_template SET ItemLevel = 60, RequiredLevel = 58 WHERE entry=21158 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 60, RequiredLevel = 58 WHERE entry=21158;
 
 /*  Hive'Regal Scout Report  */
-UPDATE item_template SET ItemLevel = 60, RequiredLevel = 58 WHERE entry=21160 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 60, RequiredLevel = 58 WHERE entry=21160;
 
 /*  Hive'Ashi Scout Report  */
-UPDATE item_template SET ItemLevel = 60, RequiredLevel = 58 WHERE entry=21161 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET ItemLevel = 60, RequiredLevel = 58 WHERE entry=21161;
 
 /*  Baby Shark  */
 UPDATE item_template SET bonding = 3, BuyPrice = 6000 WHERE entry=21168;
 
 /*  Black Qiraji Resonating Crystal  */
-UPDATE item_template SET RequiredLevel = 60 WHERE entry=21176 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 60 WHERE entry=21176;
 
 /*  Fresh Holly  */
-UPDATE item_template SET RequiredLevel = 40 WHERE entry=21212 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 40 WHERE entry=21212;
 
 /*  Preserved Holly  */
-UPDATE item_template SET RequiredLevel = 40 WHERE entry=21213 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 40 WHERE entry=21213;
 
 /*  Blue Qiraji Resonating Crystal  */
-UPDATE item_template SET RequiredLevel = 60 WHERE entry=21218 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 60 WHERE entry=21218;
 
 /*  Tranquil Mechanical Yeti  */
 UPDATE item_template SET bonding = 3 WHERE entry=21277;
 
 /*  Red Qiraji Resonating Crystal  */
-UPDATE item_template SET RequiredLevel = 60 WHERE entry=21321 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 60 WHERE entry=21321;
 
 /*  Green Qiraji Resonating Crystal  */
-UPDATE item_template SET RequiredLevel = 60 WHERE entry=21323 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 60 WHERE entry=21323;
 
 /*  Yellow Qiraji Resonating Crystal  */
-UPDATE item_template SET RequiredLevel = 60 WHERE entry=21324 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 60 WHERE entry=21324;
 
 /*  Valentine's Day Card  */
 UPDATE item_template SET bonding = 0 WHERE entry=22059;
@@ -20861,7 +20861,7 @@ UPDATE item_template SET BuyPrice = 160, SellPrice = 40 WHERE entry=23122;
 UPDATE item_template SET BuyPrice = 160, SellPrice = 40 WHERE entry=23123;
 
 /*  Foror's Crate of Endless Resist Gear Storage  */
-UPDATE item_template SET RequiredLevel = 60 WHERE entry=23162 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 60 WHERE entry=23162;
 
 /*  Bag of Smorc Ingredients  */
 UPDATE item_template SET BuyPrice = 2000, SellPrice = 500 WHERE entry=23215;
@@ -20870,7 +20870,7 @@ UPDATE item_template SET BuyPrice = 2000, SellPrice = 500 WHERE entry=23215;
 UPDATE item_template SET bonding = 5 WHERE entry=23227;
 
 /*  Fiery Festival Brew  */
-UPDATE item_template SET RequiredLevel = 0 WHERE entry=23246 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET RequiredLevel = 0 WHERE entry=23246;
 
 /*  Burning Blossom  */
 UPDATE item_template SET bonding = 0 WHERE entry=23247;
@@ -20888,7 +20888,7 @@ UPDATE item_template SET Quality = 1, BuyPrice = 5000, SellPrice = 1250 WHERE en
 UPDATE item_template SET Quality = 1, BuyPrice = 5000, SellPrice = 1250 WHERE entry=23713;
 
 /*  Riding Turtle  */
-UPDATE item_template SET Quality = 1, RequiredLevel = 20 WHERE entry=23720 AND (`Class` != 15 OR `Subclass` != 5);
+UPDATE item_template SET Quality = 1, RequiredLevel = 20 WHERE entry=23720;
 
 /* Correct drop rate for Mature Blue Dragon Sinew */
 UPDATE `creature_loot_template` SET `chance` = 0.5 WHERE `item` = 18704 AND `entry` IN (7435, 7436, 7437);
