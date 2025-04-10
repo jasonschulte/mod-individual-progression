@@ -16,7 +16,7 @@ private:
 public:
     IndividualPlayerProgression() : PlayerScript("IndividualProgression") { }
 
-    void OnLogin(Player* player) override
+    void OnLogin(Player* player)
     {
         if (player->getClass() == CLASS_DEATH_KNIGHT && sIndividualProgression->deathKnightStartingProgression && !sIndividualProgression->hasPassedProgression(player, static_cast<ProgressionState>(sIndividualProgression->deathKnightStartingProgression)))
         {
@@ -29,7 +29,7 @@ public:
         sIndividualProgression->CheckAdjustments(player);
     }
 
-    void OnSetMaxLevel(Player* player, uint32& maxPlayerLevel) override
+    void OnSetMaxLevel(Player* player, uint32& maxPlayerLevel)
     {
         if (!sIndividualProgression->enabled || isExcludedFromProgression(player))
         {
@@ -52,17 +52,17 @@ public:
         }
     }
 
-    void OnMapChanged(Player* player) override
+    void OnMapChanged(Player* player)
     {
         sIndividualProgression->CheckAdjustments(player);
     }
 
-    void OnLevelChanged(Player* player, uint8 /*oldLevel*/) override
+    void OnLevelChanged(Player* player, uint8 /*oldLevel*/)
     {
         sIndividualProgression->CheckAdjustments(player);
     }
 
-    void OnEquip(Player* player, Item* /*it*/, uint8 /*bag*/, uint8 /*slot*/, bool /*update*/) override
+    void OnEquip(Player* player, Item* /*it*/, uint8 /*bag*/, uint8 /*slot*/, bool /*update*/)
     {
         sIndividualProgression->CheckAdjustments(player);
     }
@@ -72,7 +72,7 @@ public:
         sIndividualProgression->CheckAdjustments(player);
     }
 
-    bool ShouldBeRewardedWithMoneyInsteadOfExp(Player* player) override
+    bool ShouldBeRewardedWithMoneyInsteadOfExp(Player* player)
     {
         if (!sIndividualProgression->questMoneyAtLevelCap)
         {
@@ -84,7 +84,7 @@ public:
                 (!sIndividualProgression->hasPassedProgression(player, PROGRESSION_TBC_TIER_5) && player->GetLevel() == 70));
     }
 
-    void OnAfterUpdateMaxHealth(Player* player, float& value) override
+    void OnAfterUpdateMaxHealth(Player* player, float& value)
     {
         // TODO: This should be adjust to use an aura like damage adjustment. This is more robust to update when changing equipment, etc.
         if (!sIndividualProgression->enabled || isExcludedFromProgression(player))
@@ -117,7 +117,7 @@ public:
         }
     }
 
-    void OnQuestComputeXP(Player* player, Quest const* quest, uint32& xpValue) override
+    void OnQuestComputeXP(Player* player, Quest const* quest, uint32& xpValue)
     {
         if (!sIndividualProgression->enabled || !sIndividualProgression->questXpFix || isExcludedFromProgression(player))
         {
@@ -134,7 +134,7 @@ public:
         }
     }
 
-    void OnGiveXP(Player* player, uint32& amount, Unit* /*victim*/, uint8 xpSource) override
+    void OnGiveXP(Player* player, uint32& amount, Unit* /*victim*/, uint8 xpSource)
     {
         if (!sIndividualProgression->enabled || isExcludedFromProgression(player))
         {
@@ -171,7 +171,7 @@ public:
         return (accountNameFound && std::regex_match(accountName, excludedAccountsRegex));
     }
 
-    bool OnBeforeTeleport(Player* player, uint32 mapid, float x, float y, float z, float /*orientation*/, uint32 /*options*/, Unit* /*target*/) override
+    bool OnBeforeTeleport(Player* player, uint32 mapid, float x, float y, float z, float /*orientation*/, uint32 /*options*/, Unit* /*target*/)
     {
         if (!sIndividualProgression->enabled || player->IsGameMaster() || isExcludedFromProgression(player))
         {
@@ -274,7 +274,7 @@ public:
         }
     }
 
-    bool CanGroupInvite(Player* player, std::string& membername) override
+    bool CanGroupInvite(Player* player, std::string& membername)
     {
         if (!sIndividualProgression->enabled || !sIndividualProgression->enforceGroupRules || isExcludedFromProgression(player))
         {
@@ -286,7 +286,7 @@ public:
         return (currentState == otherPlayerState);
     }
 
-    bool CanGroupAccept(Player* player, Group* group) override
+    bool CanGroupAccept(Player* player, Group* group)
     {
         if (!sIndividualProgression->enabled || !sIndividualProgression->enforceGroupRules || isExcludedFromProgression(player))
         {
@@ -300,7 +300,7 @@ public:
 
 
 
-    void OnCreatureKill(Player* killer, Creature* killed) override
+    void OnCreatureKill(Player* killer, Creature* killed)
     {
         sIndividualProgression->checkKillProgression(killer, killed);
         Group* group = killer->GetGroup();
@@ -319,7 +319,7 @@ public:
         }
     }
 
-    bool OnUpdateFishingSkill(Player* player, int32 /*skill*/, int32 /*zone_skill*/, int32 chance, int32 roll) override
+    bool OnUpdateFishingSkill(Player* player, int32 /*skill*/, int32 /*zone_skill*/, int32 chance, int32 roll)
     {
         if (!sIndividualProgression->enabled || !sIndividualProgression->fishingFix || isExcludedFromProgression(player))
             return true;
@@ -328,7 +328,7 @@ public:
         return true;
     }
 
-    void OnUpdateArea(Player* player, uint32 /*oldArea*/, uint32 newArea) override
+    void OnUpdateArea(Player* player, uint32 /*oldArea*/, uint32 newArea)
     {
         switch (newArea) {
             case AREA_LIGHTS_HOPE:
@@ -358,7 +358,7 @@ public:
         }
     }
 
-    void OnQueueRandomDungeon(Player* player, uint32& rDungeonId) override
+    void OnQueueRandomDungeon(Player* player, uint32& rDungeonId)
 {
     // List of exceptions for seasonal event dungeons
     std::set<uint32> seasonalEventDungeons = { 285, 286, 287, 288 };
@@ -389,7 +389,7 @@ public:
     }
 }
 
-    bool CanEquipItem(Player* player, uint8 /*slot*/, uint16& /*dest*/, Item* pItem, bool /*swap*/, bool /*not_loading*/) override
+    bool CanEquipItem(Player* player, uint8 /*slot*/, uint16& /*dest*/, Item* pItem, bool /*swap*/, bool /*not_loading*/)
     {
         if (sIndividualProgression->pvpGearRequirements)
         {
