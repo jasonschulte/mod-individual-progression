@@ -1498,7 +1498,7 @@ public:
 void AddSC_instance_naxxramas_combined()
 {
     new instance_naxxramas_combined();
-//    new boss_naxxramas_misc();
+    new boss_naxxramas_misc();
     new at_naxxramas_hub_portal();
     new NaxxPlayerScript();
     new naxx_exit_trigger();

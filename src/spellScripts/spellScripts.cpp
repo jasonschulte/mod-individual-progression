@@ -60,5 +60,5 @@ class spell_detect_magic : public SpellScript
 
 void AddSC_ipp_spell_scripts()
 {
-    RegisterSpellScript(spell_detect_magic);
+    // RegisterSpellScript(spell_detect_magic);
 }
